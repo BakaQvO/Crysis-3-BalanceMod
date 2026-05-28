@@ -18,6 +18,12 @@ local C3BalanceMod_ClipOnlyAmmo =
 local C3BalanceMod_CloakGuardTimer = 7;
 local C3BalanceMod_CloakGuardIntervalMs = 200;
 
+local function C3BalanceMod_Log(message)
+	if (System and System.Log) then
+		System.Log("[C3BalanceMod] " .. message);
+	end
+end
+
 Player = {
 
 	AnimationGraph = "player.xml",
@@ -343,6 +349,18 @@ function Player:OnReset(bFromInit, bIsReload)
 	
 	BasicActor.Reset(self, bFromInit, bIsReload);
 	
+	if (not System.IsMultiplayer() and System.SetCVar) then
+		System.SetCVar("g_infiniteAmmo", 1);
+		if (not self.c3BalanceModLoggedInfiniteAmmo) then
+			local value = nil;
+			if (System.GetCVar) then
+				value = System.GetCVar("g_infiniteAmmo");
+			end
+			C3BalanceMod_Log("loaded; g_infiniteAmmo=" .. tostring(value));
+			self.c3BalanceModLoggedInfiniteAmmo = true;
+		end
+	end
+
 	self:SetTimer(0,500);
 	self:SetTimer(PLAYER_AMMO_GUARD_TIMER,50);
 	self:SetTimer(C3BalanceMod_CloakGuardTimer,C3BalanceMod_CloakGuardIntervalMs);
@@ -484,6 +502,10 @@ function Player:C3BalanceMod_RecordWeaponAmmo(weapon, ammoName)
 			restore = clipSize;
 		end
 		weapon:SetAmmoCount(nil, restore);
+		if (not self.c3BalanceModLoggedWeaponAmmoRestore) then
+			C3BalanceMod_Log("restored weapon-only ammo " .. tostring(ammoName) .. " from " .. tostring(current) .. " to " .. tostring(restore));
+			self.c3BalanceModLoggedWeaponAmmoRestore = true;
+		end
 	end
 end
 
@@ -534,6 +556,10 @@ function Player:C3BalanceMod_RecordReserveAmmo()
 		self.c3BalanceModReserveAmmo[ammoName] = current;
 	elseif (current < remembered) then
 		self.inventory:SetAmmoCount(ammoName, remembered);
+		if (not self.c3BalanceModLoggedReserveAmmoRestore) then
+			C3BalanceMod_Log("restored reserve ammo " .. tostring(ammoName) .. " from " .. tostring(current) .. " to " .. tostring(remembered));
+			self.c3BalanceModLoggedReserveAmmoRestore = true;
+		end
 	end
 end
 function Player:GrabObject(object, query)
