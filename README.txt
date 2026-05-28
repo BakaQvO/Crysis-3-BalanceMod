@@ -4,6 +4,7 @@ C3BalanceMod
 Effects:
 - Single-player player damage is multiplied by 0.3 before actor damage processing, giving 70% damage reduction.
 - Single-player nanosuit energy costs are reduced to 30% for armor hit drain, armor upkeep, stealth upkeep, and common suit action presets.
+- Single-player player jump height and nanosuit power-jump scale are multiplied by 2.5.
 - Reserve ammo capacity is not changed. In single-player the mod enables the engine's g_infiniteAmmo cvar for inventory ammo, so magazines still deplete and reload normally while reserve ammo is not spent.
 - The Lua ammo guard is kept as a fallback: real reserve-pool decreases are restored, pickups or other increases are remembered, and SP weapons whose whole ammo pool is the weapon magazine are restored without raising the original clip/energy pool size.
 - In single-player, entering cloak marks the player as invisible to AI and repeatedly sends target-loss signals to enemies that still have the player as their attention target.

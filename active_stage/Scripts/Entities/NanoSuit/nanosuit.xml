@@ -36,7 +36,7 @@
     <param name="crouchSpeedScale" value="1.0" GAME="SP" />
     <!-- All modes -->
     <param name="crouchSpeedScale" value="1.0" GAME="MP" />
-    <param name="superJumpScale" value="2.3" />
+    <param name="superJumpScale" value="5.75" />
     <!-- Power mode -->
     <param name="meleeStrengthScale" value="4.0" GAME="SP"/>
     <!-- Boosted melee (SP) -->

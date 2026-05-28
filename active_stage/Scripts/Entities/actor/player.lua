@@ -201,6 +201,7 @@ Player = {
 		lookFOV	= 90,
 		nanoSuitActive = 1,
 		aimFOV = 180,
+		jumpHeight = 3.75,
 		
 		proceduralLeaningFactor = 0.0, -- disable procedural leaning as we have turn assets now
 	},
