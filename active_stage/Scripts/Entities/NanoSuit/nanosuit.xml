@@ -1,0 +1,725 @@
+<NanoSuit>
+  <SuitVoice GAME="SP" >
+    <param name="maxRepetitions" value="5" />
+  </SuitVoice>
+  <Energy>
+    <param name="maximumEnergy" value="100" GAME="SP"/>
+    <param name="maximumEnergy" value="100" GAME="MP"/>
+    <param name="regenerationRate" value="30" GAME="SP" />
+    <param name="regenerationRate" value="30" GAME="MP" />
+    <param name="disableTime" value="3.0" GAME="SP" />
+    <param name="disableTime" value="3.0" GAME="MP" />
+    <param name="minEnergyRecharge" value="25" />
+    <!-- Min amount of energy to be recharged to be able to use the suit after being disabled -->
+    <param name="regenerationDelay" value="2.0" GAME="SP" />
+    <param name="regenerationDelay" value="3.0" GAME="MP" />
+    <param name="energyBarAudio" value="Player_NanoSuit_EnergyBar" GAME="SP" />
+    <param name="energyBarAudio" value="Player_NanoSuit_EnergyBar_MP" GAME="MP" />
+    <param name="ironsightStabilizationRate" value="10" GAME="SP" />
+    <param name="ironsightStabilizationRate" value="10" GAME="MP" />
+    <param name="nanoVisionRate" value="2.0" GAME="SP" />
+    <param name="nanoVisionRate" value="2.0" GAME="MP" /> <!-- we dont use this in MP anymore, use pl_nanovision_timetodrain instead -->
+    <param name="collectEnergyAmount" value="10.0" />
+  </Energy>
+  <GameParameters>
+    <param name="speedScale" value="1.25" GAME="SP" />
+    <param name="speedscale" value="1.25" GAME="MP" />
+    <!-- All modes -->
+    <param name="rotationSpeedScale" value="1.0" />
+    <!-- All modes ? -->
+    <param name="sprintSpeedScale" value="1.8" GAME="SP" />
+    <!-- All modes -->
+    <param name="sprintSpeedScale" value="1.8" GAME="MP" />
+    <param name="strafeSpeedScale" value="0.7" GAME="SP" />
+    <!-- All modes -->
+    <param name="strafeSpeedScale" value="0.7" GAME="MP" />
+    <param name="crouchSpeedScale" value="1.0" GAME="SP" />
+    <!-- All modes -->
+    <param name="crouchSpeedScale" value="1.0" GAME="MP" />
+    <param name="superJumpScale" value="2.3" />
+    <!-- Power mode -->
+    <param name="meleeStrengthScale" value="4.0" GAME="SP"/>
+    <!-- Boosted melee (SP) -->
+    <param name="meleeStrengthScale" value="4.0" GAME="MP" />
+    <!-- Armor mode (MP) -->
+    <param name="meleeStrengthVehicleScale" value="1.0" />
+    <!-- Power mode -->
+    <param name="meleeDamageScale" value="6.0" GAME="SP" />
+    <!-- Boosted melee (SP) -->
+    <param name="meleeDamageScale" value="1.0" GAME="MP" />
+    <!-- Armor mode (MP) -->
+    <param name="throwStrengthScale" value="1.25" GAME="SP"/>
+    <param name="throwStrengthScale" value="1.5" GAME="MP"/>
+    <!-- Boosted throw -->
+    <param name="camouflage"	value="0.0" />
+    <!-- Stealth mode -->
+    <param name="noiseSupression" value="0.0" />
+    <!-- All modes -->
+    <param name="damageAbsorption" value="0.0" />
+    <!-- Armor mode -->
+    <param name="damageAbsorptionMelee" value="0.0" />
+    <!-- Armor mode -->
+    <param name="damageAbsorptionDesperateAbsorbMult" value="1.0" />
+    <!-- Armor mode -->
+    <param name="damageAbsorptionDesperateDrainMult" value="1.0" />
+    <!-- Armor mode -->
+    <param name="damageAbsorptionDesperateAbsorbRate" value="0.0" />
+    <!-- Armor mode -->
+    <param name="damageAbsorptionDesperateEnergyCost" value="0.0" />
+    <!-- Armor mode -->
+    <param name="damageAbsorptionDesperateEnergyCostMelee" value="0.0" />
+    <!-- Armor mode -->
+    <param name="damageAbsorptionDesperateThreshold" value="0.0" />
+    <!-- Armor mode -->
+    <param name="hitReactionAbsorption" value="0.0" />
+    <!-- Armor mode -->
+    <param name="aiClassThreat" value="1.2" />
+    <!-- All modes -->
+		<param name="stealthPenaltyTimeout" value="0.33" GAME="MP"/> <!-- Period of time after disabling cloak that penalty will apply -->
+  </GameParameters>
+  <DefaultParams>
+    <!-- Benito: Leave those alone, even if empty -->
+    <!-- Energy only is consumed while sprinting in this mode -->
+    <EnergyMod>
+      <param name="consumptionRateMin" value="0" GAME="SP" />
+      <param name="consumptionRateMax" value="0" GAME="SP" />
+      <param name="consumptionRateMin" value="0" GAME="MP" />
+      <param name="consumptionRateMax" value="0" GAME="MP" />
+      <param name="regenerationDelay" value="2.0" GAME="SP" />
+      <param name="regenerationDelay" value="3.0" GAME="MP" />
+      <param name="maxSpeedReferenceForConsumption" value="6.0" GAME="SP"/>
+      <param name="maxSpeedReferenceForConsumption" value="9.0" GAME="MP"/>
+      <param name="speedToConsumptionRateCurve" value="1.0" GAME="SP"/>
+      <param name="speedToConsumptionRateCurve" value="1.0" GAME="MP"/>
+    </EnergyMod>
+    <GameParametersMod>
+      <!--			<param name="damageAbsorption" add="-0.05" GAME="MP" /> -->
+    </GameParametersMod>
+  </DefaultParams>
+  <ArmorParams>
+    <ModeParams>
+      <param name="energyCostPerHitPoint" value="0.0045" GAME="SP"/>
+      <param name="energyCostPerHitPoint" value="1.0" GAME="MP"/>
+      <param name="minEnergyCostPerHit" value="0.3" GAME="SP"/>
+      <param name="maxEnergyCostPerHit" value="9" GAME="SP"/>
+      <param name="minEnergyCostPerHit" value="1" GAME="MP"/>
+      <param name="maxEnergyCostPerHit" value="100" GAME="MP"/>
+    </ModeParams>
+    <EnergyMod>
+      <param name="consumptionRateMin" value="0.6" GAME="SP" />
+      <param name="consumptionRateMin" value="0" GAME="MP" />
+      <param name="consumptionRateMax" value="0.6" GAME="SP" />
+      <param name="consumptionRateMax" value="0" GAME="MP" />
+      <param name="regenerationDelay" value="1.0" GAME="SP" />
+      <param name="regenerationDelay" value="3.0" GAME="MP" />
+      <param name="maxSpeedReferenceForConsumption" value="1.0" GAME="SP" />
+      <param name="maxSpeedReferenceForConsumption" value="6.0" GAME="MP" />
+      <param name="speedToConsumptionRateCurve" value="1.0" GAME="SP"/>
+      <param name="speedToConsumptionRateCurve" value="3.0" GAME="MP"/>
+    </EnergyMod>
+    <GameParametersMod>
+      <param name="speedScale" add="-0.25" GAME="SP" />
+      <param name="speedScale" add="-0.2" GAME="MP" />
+      <param name="sprintSpeedScale" add="-0.3" GAME="SP" />
+      <param name="sprintSpeedScale" add="-0.2" GAME="MP" />
+      <param name="strafeSpeedScale" add="0" GAME="MP" />
+      <!-- TODO! needs a value from MP Design Dept. (remember: this will get added onto the value in GameParameters higher up) -->
+      <param name="crouchSpeedScale" add="-0.1" GAME="MP" />
+      <!-- TODO! needs a value from MP Design Dept. (remember: this will get added onto the value in GameParameters higher up) -->
+      <param name="rotationSpeedScale" add="-0.05" GAME="SP" />
+      <param name="rotationSpeedScale" add="-0.05" GAME="MP" />
+      <param name="damageAbsorption" add="1.0" GAME="SP" />
+      <param name="damageAbsorption" add="1.0" GAME="MP" />
+      <EnergyCostPerHit GAME="MP" >
+        <param name="GaussBullet" add="0.583" />			<!-- results in cost=1.25 which means 100% energy loss for a 80 damage hit -->
+        <param name="SniperBullet" add="0.35" />
+        <param name="MikeBullet" add="0.35" />
+        <param name="HPistolBullet" add="0.15" />
+        <param name="GrendelBullet" add="0.15" />	
+      </EnergyCostPerHit>
+      <param name="damageAbsorptionMelee" add="1.0" GAME="SP" />
+      <param name="damageAbsorptionMelee" add="1.0" GAME="MP" />
+      <param name="meleeStrengthScale" add="3.0" GAME="SP"/>
+      <param name="meleeStrengthVehicleScale" add="0" GAME="SP"/>
+      <param name="meleeDamageScale" add="0.0" GAME="SP"/>
+      <param name="meleeDamageScale" add="0.0" GAME="MP"/>
+      <param name="throwStrengthScale" add="0.0" />
+      <param name="hitReactionAbsorption" add="0.9" GAME="SP" />
+      <param name="hitReactionAbsorption" add="0.95" GAME="MP" />
+
+    </GameParametersMod>
+  </ArmorParams>
+  <StealthParams>
+    <EnergyMod>
+      <param name="regenerationDelay" value="1" GAME="SP" />
+      <param name="consumptionRateMin" value="0.6" GAME="SP" />
+      <param name="consumptionRateMin" value="2" GAME="MP" />
+      <param name="consumptionRateMax" value="6" GAME="SP" />
+      <param name="consumptionRateMax" value="20.0" GAME="MP" />
+      <param name="regenerationDelay" value="3.0" GAME="MP" />
+      <param name="minEnergyRecharge" value="25" GAME="SP" />
+      <param name="maxSpeedReferenceForConsumption" value="6.5" GAME="SP" />
+      <param name="maxSpeedReferenceForConsumption" value="7.15" GAME="MP" />
+      <param name="speedToConsumptionRateCurve" value="3.0" GAME="SP"/>
+      <param name="speedToConsumptionRateCurve" value="5.0" GAME="MP"/>
+    </EnergyMod>
+    <GameParametersMod>
+      <!--<param name="speedScale" add="-0.25" GAME="SP" />
+			<param name="sprintSpeedScale" add="-0.5" GAME="SP" />-->
+			<param name="speedScale" add="-0.2" GAME="MP" />
+			<param name="sprintSpeedScale" add="-0.2" GAME="MP" />
+			<param name="damageAbsorptionMelee" add="-1.0" GAME="MP" />
+      <param name="meleeDamageScale" add="0.0" GAME="MP"/>
+      <param name="camouflage"	add="1.0" />
+      <param name="noiseSupression" add="0.75" />
+      <param name="damageAbsorption" add="-1.0" GAME="MP" />
+    </GameParametersMod>
+  </StealthParams>
+  <SuitActions>
+    <!-- Presets -->
+    <energyPreset name="energyOverload" cost="30.0"  />
+    <energyPreset name="energyDrainFireWeapon" cost="6.0"  />
+    <energyPreset name="energyDrain" cost="0.75"  />
+    <energyPreset name="energyStealthAttack" cost="3.0" GAME="SP" />
+    <energyPreset name="energyStealthAttack" cost="0.0" GAME="MP" />
+    <energyPreset name="energyPowerThrown" cost="6.0" GAME="SP" />
+    <energyPreset name="energyPowerMelee" cost="6.0" GAME="SP" />
+    <energyPreset name="energyPowerMelee" cost="0" GAME="MP" />
+    <energyPreset name="energyMeleeCombo" cost="0.6" GAME="SP" />
+    <energyPreset name="energyMeleeKillingBlow" cost="1.5" GAME="SP" />
+    <energyPreset name="kvoltEnergyDrain" cost="10.2" GAME="SP" />
+    <energyPreset name="kvoltEnergyDrain" cost="14.0" GAME="MP" />
+    <energyPreset name="energyPowerJump" cost="3.0" GAME="SP" />
+    <energyPreset name="energyPowerJump" cost="0.0" GAME="MP" />
+    <energyPreset name="energyPerkStamp" cost="7.5" GAME="SP" />
+    <energyPreset name="energyPerkStamp" cost="0.0" GAME="MP" />
+    <energyPreset name="perkMobilityEnergyPowerJump" cost="1.5" GAME="SP"/>
+    <energyPreset name="perkMobilityEnergyPowerJump" cost="0.0" GAME="MP"/>
+    <energyPreset name="perkMobilityMaximumEnergyPowerJump" cost="0.75" GAME="SP"/>
+    <energyPreset name="perkMobilityMaximumEnergyPowerJump" cost="0.0" GAME="MP"/>
+
+    <cameraShakePreset name="randomDirCamShake"  shift="0.105, 0.35, -0.07" rotate="-0.15, 0.15, 0" time="0.055" frequency="0.055" viewAngleAttenuation="0" randomDirection="1" />
+    <cameraShakePreset name="weakCamShake" shift="0.3, -0.1, 0.2" rotate="0, 0.5, 0" time="0.25" frequency="0.073" /> <!-- unused -->
+    <cameraShakePreset name="strongCamShake" shift="0, -0.25, 0" rotate="0, -1.2, 0" time="0.5" frequency="0.04" />   <!-- unused -->
+    <cameraShakePreset name="meleeCamShake" shift="0.04, 0.04, 0.04" rotate="0.1, 0.1, 0.1" time="0.1" frequency="0.4" viewAngleAttenuation="0" randomDirection="1"/>
+
+
+    <screenFxPreset name="powerScreenFx" library="player_fx" effect="suit_speedmode" />
+
+    <!-- Misc -->
+    <action name="Suit_StartUp">
+      <screenFx library="player_fx" effect="suit_startup" />
+    </action>
+    <action name="Suit_EnergyOverload">
+      <energy preset="energyOverload" />
+    </action>
+    <action name="Suit_EMP">
+      <screenFx library="player_fx" effect="player_focus_ping" />
+      <energy preset="energyOverload" />
+    </action>
+    <action name="Suit_EnergyUpgrade_EMP" >
+      <screenFx library="player_fx" effect=" pinger_focus_ping_medium" />
+      <Energy preset="kvoltEnergyDrain" />
+    </action>
+    <action name="Suit_EnergyUpgradeMax_EMP" >
+      <screenFx library="player_fx" effect=" pinger_focus_ping_small" />
+      <Energy preset="kvoltEnergyDrain" />
+    </action>
+    <action name="Suit_EnergyDrain">
+      <energy preset="energyDrain" />
+    </action>
+    <action name="Suit_EnergyLeech">
+      <sound firstperson="Perk_EnergyLeech" />
+    </action>
+    <action name="Suit_EnergyFullyRestored">
+      <sound firstperson="Nanosuit_EnergyFullyRestored" GAME="SP"/>
+      <sound firstperson="Nanosuit_EnergyFullyRestored_MP" setTeamParam="1" GAME="MP"/>
+    </action>
+    <action name="Suit_Hit" >
+      <screenFx library="player_fx" effect="player_damage_armormode" />
+    </action>
+    <action name="Suit_Hit_Armor" >
+      <screenFx library="player_fx" effect="player_damage_armormode" />
+    </action>
+    <action name="Suit_Hit_Armor_Active" >
+      <screenFx library="player_fx" effect="player_damage_armormode_active" />
+    </action>
+    <action name="Suit_Death" >
+      <screenFx library="player_fx" effect="playerdeath_generic" />
+    </action>
+
+    <action name="OnNanoSuit_Slowmo_Enter">
+      <sound firstperson="Player_NanoSuit_Slowmo_Enter" />
+    </action>
+
+    <action name="OnNanoSuit_Slowmo_Exit">
+      <sound firstperson="Player_NanoSuit_Slowmo_Exit" />
+    </action>
+
+    <action name="Suit_Interference">
+      <screenFx library="suit_fx" effect="suit_interference_effect"/>
+    </action>
+
+    <action name="KnockDown">
+      <sound firstperson="Player_Ramming_Enemy" thirdperson="Player_Ramming_Enemy" />
+      <screenFx library="player_fx" effect="player_damage_heavy_melee" />
+    </action>
+
+    <action name="OnNanoSuit_Disabled">
+      <sound firstperson="Nanosuit_Enter_DisabledState_FP" thirdperson="Nanosuit_Enter_DisabledState" GAME="SP"/>
+      <sound firstperson="Nanosuit_Enter_DisabledState_FP_MP" thirdperson="Nanosuit_Enter_DisabledState_MP" setTeamParam="1" GAME="MP"/>
+    </action>
+    <action name="OnNanoSuit_Disabled_FromArmorDamaged">
+      <sound firstperson="Nanosuit_Enter_DisabledState_FromArmorDamaged_FP" thirdperson="Nanosuit_Enter_DisabledState_FromArmorDamaged" />
+    </action>
+    <action name="OnNanoSuit_Disabled_Uncloak">
+      <sound firstperson="Nanosuit_Enter_DisabledState_FromStealth_FP" thirdperson="Nanosuit_Enter_DisabledState_FromStealth" />
+    </action>
+    <action name="OnNanoSuit_Disabled_SuitDisruptor">
+      <sound firstperson="Nanosuit_Enter_DisabledState_FromSuitDisruptor_FP" thirdperson="Nanosuit_Enter_DisabledState" />
+    </action>
+
+    <action name="OnNanoSuit_KVoltCharge">
+      <sound firstperson="Nanosuit_Enter_DisabledState_FP" thirdperson="Nanosuit_Enter_DisabledState" GAME="SP"/>
+      <sound firstperson="Nanosuit_Enter_DisabledState_FP_MP" thirdperson="Nanosuit_Enter_DisabledState_MP" setTeamParam="1" GAME="MP"/>
+      <forceFeedback effectName="weakFF" />
+      <energy preset="kvoltEnergyDrain" />
+    </action>
+    <action name="OnNanoSuit_Reboot">
+      <sound firstperson="Nanosuit_Reboot_FP" thirdperson="Nanosuit_Reboot" GAME="SP"/>
+      <sound firstperson="Nanosuit_Reboot_FP_MP" thirdperson="Nanosuit_Reboot" setTeamParam="1" GAME="MP"/>
+    </action>
+
+    <action name="Enemy_Ramming_Run" >
+      <sound firstperson="Player_Ramming_Enemy" thirdperson="Player_Ramming_Enemy" />
+      <forceFeedback effectName="weakFF" />
+      <cameraShake preset="randomDirCamShake" />
+    </action>
+    <action name="Enemy_Ramming_Jump" >
+      <sound firstperson="Player_Ramming_Enemy" thirdperson="Player_Ramming_Enemy" />
+      <forceFeedback effectName="weakFF" />
+      <cameraShake preset="randomDirCamShake" />
+    </action>
+    <action name="Enemy_Ramming_Slide" >
+      <sound firstperson="Player_Ramming_Enemy" thirdperson="Player_Ramming_Enemy" />
+      <forceFeedback effectName="weakFF" />
+      <cameraShake preset="randomDirCamShake" />
+    </action>
+
+    <action name="OnNanoSuit_EnterDrain">
+      <screenFx library="suit_fx" effect="suit_interference_effect"/>
+    </action>
+
+    <action name="Melee">
+      <sound firstperson="NanoSuit_TacticalMode_melee_FP" thirdperson="NanoSuit_TacticalMode_melee" />
+      <cameraShake preset="meleeCamShake" />
+    </action>
+
+    <action name="Melee_Hit">
+      <forceFeedback effectName="jumpFF" />
+    </action>
+
+    <action name="Heavy_MeleeReaction" >
+      <forceFeedback effectName="StrongFF" />
+      <screenFx library="player_fx" effect="player_damage_heavy_melee" />
+    </action>
+
+    <action name="JumpedByStalker" >
+      <forceFeedback effectName="StrongFF" />
+      <screenFx library="player_fx" effect="player_damage_heavy_melee" />
+    </action>
+
+    <!-- Power -->
+
+    <action name="PowerJump">
+      <sound firstperson="Nanosuit_SuperJump_FP" thirdperson="Nanosuit_SuperJump" GAME="SP"/>
+      <sound firstperson="Nanosuit_SuperJump_FP_MP" thirdperson="Nanosuit_SuperJump_MP" setTeamParam="1" GAME="MP"/>
+      <forceFeedback effectName="jumpFF" />
+      <energy preset="energyPowerJump" />
+      <screenFx library="player_fx" effect="suit_mode_power" GAME="SP"/>
+    </action>
+    <action name="PowerJumpPerk">
+      <sound firstperson="Nanosuit_Perk_MobilitySuperJump_FP" thirdperson="Nanosuit_SuperJump" GAME="SP"/>
+      <sound firstperson="Nanosuit_SuperJump_FP_MP" thirdperson="Nanosuit_SuperJump_MP" setTeamParam="1" GAME="MP"/>
+      <forceFeedback effectName="mediumFF" />
+      <energy preset="perkMobilityEnergyPowerJump" />
+    </action>
+    <action name="PowerJumpPerkMaximum">
+      <sound firstperson="Nanosuit_Perk_MobilitySuperJump_FP" thirdperson="Nanosuit_SuperJump" GAME="SP"/>
+      <sound firstperson="Nanosuit_SuperJump_FP_MP" thirdperson="Nanosuit_SuperJump_MP" setTeamParam="1" GAME="MP"/>
+      <forceFeedback effectName="mediumFF" />
+      <energy preset="perkMobilityMaximumEnergyPowerJump" />
+    </action>
+    <action name="MeleeCombo">
+      <energy preset="energyMeleeCombo" />
+    </action>
+    <action name="MeleeKillingBlow">
+      <energy preset="energyMeleeKillingBlow" />
+    </action>
+
+    <action name="OnActivate_Sprint">
+      <forceFeedback effectName="weakFF" />
+      <screenFx library="player_fx" effect="suit_mode_power" GAME="SP"/>
+    </action>
+    <action name="OnDeactivate_Sprint">
+      <forceFeedback effectName="weakFF" />
+    </action>
+
+    <!-- Stealth -->
+
+    <action name="AfterActivate_Stealth" >
+      <sound firstperson="NanoSuit_AfterActivateStealthMode_FP" />
+    </action>
+
+    <action name="OnActivate_Cloak">
+      <sound firstperson="NanoSuit_ActivateCloak_FP" thirdperson="NanoSuit_ActivateCloak" GAME="SP" >
+        <perkOverride perk="Phantom" firstperson="NanoSuit_Perk_Phantom_ActivateCloak_FP" thirdperson="NanoSuit_ActivateCloak" />
+      </sound>
+      <sound firstperson="NanoSuit_ActivateCloak_FP_MP" thirdperson="NanoSuit_ActivateCloak" perkMuteSuitSoundTier="2" GAME="MP" />
+      <forceFeedback effectName="cloakactiveateFF" />
+      <screenFx library="player_fx" effect="suit_mode_stealth" GAME="SP"/>
+    </action>
+    <action name="OnDeactivate_Cloak">
+      <sound firstperson="NanoSuit_DeActivateCloak_FP" thirdperson="NanoSuit_DeActivateCloak" GAME="SP" >
+        <perkOverride perk="Phantom" firstperson="NanoSuit_Perk_Phantom_DeActivateCloak_FP" thirdperson="NanoSuit_DeActivateCloak" />
+      </sound>
+      <sound firstperson="NanoSuit_DeActivateCloak_FP_MP" thirdperson="NanoSuit_DeActivateCloak_3P_MP" GAME="MP"/>
+      <forceFeedback effectName="cloakactiveateFF" />
+    </action>
+    <action name="Shot_Cloaked">
+      <energy preset="energyDrainFireWeapon" GAME="SP"/>
+      <energy preset="energyOverload" GAME="MP"/>
+      <forceFeedback effectName="mediumFF" GAME="SP" />
+    </action>
+
+    <action name="Melee_Cloaked">
+      <sound firstperson="NanoSuit_StealthModeActive_melee_FP" thirdperson="NanoSuit_StealthModeActive_melee" />
+			<energy preset="energyOverload" GAME="MP"/>
+			<cameraShake preset="meleeCamShake" />
+    </action>
+
+    <action name="Hit_Cloaked" >
+      <energy preset="energyStealthAttack" />
+    </action>
+
+    <action name="FallHit_Cloaked" >
+      <!--<energy preset="energyStealthAttack" />-->
+    </action>
+
+    <action name="PowerGrab">
+      <sound firstperson="Perk_NanoStrength_Grab" thirdperson="" />
+    </action>
+    
+    <action name="PowerThrow">
+      <sound firstperson="Perk_NanoStrength_Throw" thirdperson="" />
+      <energy preset="energyPowerThrown" GAME="SP" />
+      <screenFx library="player_fx" effect="suit_mode_power" GAME="SP"/>
+    </action>
+
+    <!-- Armor actions -->
+    <action name="AfterActivate_Armor" >
+      <sound firstperson="NanoSuit_AfterActivateArmorMode_FP" >
+        <perkOverride perk="TeamSuitBoost" firstperson="NanoSuit_AfterActivateMaximumSuit_FP" />
+      </sound>
+    </action>
+    
+		<action name="AfterActivate_AutoArmor" >
+			<sound firstperson="NanoSuit_AfterActivateAutoArmorMode_FP" />
+		</action>
+    <action name="ArmorModeON" >
+      <sound firstperson="NanoSuit_ArmorModeON_FP" thirdperson="NanoSuit_ArmorModeON" GAME="SP" >
+        <perkOverride perk="HeavyArmor" firstperson="NanoSuit_Perk_HeavyArmorModeON_FP" thirdperson="NanoSuit_ArmorModeON" />
+        <perkOverride perk="ArmorEfficiency" firstperson="NanoSuit_Perk_LightArmorModeON_FP" thirdperson="NanoSuit_ArmorModeON" />
+        <perkOverride perk="TeamSuitBoost" firstperson="NanoSuit_Perk_MaximumSuitON_FP" thirdperson="NanoSuit_ArmorModeON" GAME="SP" />
+      </sound>
+      <sound firstperson="NanoSuit_ArmorModeON_FP_MP" thirdperson="NanoSuit_ArmorModeON" GAME="MP" />
+      <forceFeedback effectName="suitactiveateFF" />
+      <screenFx library="player_fx" effect="suit_mode_armor" GAME="SP"/>
+    </action>
+    <action name="ArmorModeOFF" >
+      <sound firstperson="NanoSuit_ArmorModeOFF_FP" thirdperson="NanoSuit_ArmorModeOFF" GAME="SP" >
+        <perkOverride perk="HeavyArmor" firstperson="NanoSuit_Perk_HeavyArmorModeOFF_FP" thirdperson="NanoSuit_ArmorModeOFF" />
+        <perkOverride perk="ArmorEfficiency" firstperson="NanoSuit_Perk_LightArmorModeOFF_FP" thirdperson="NanoSuit_ArmorModeOFF" />
+        <perkOverride perk="TeamSuitBoost" firstperson="NanoSuit_Perk_MaximumSuitOFF_FP" thirdperson="NanoSuit_ArmorModeOFF" GAME="SP" />
+      </sound>
+      <sound firstperson="NanoSuit_ArmorModeOFF_FP_MP" thirdperson="NanoSuit_ArmorModeOFF_3P_MP" GAME="MP" />
+      <forceFeedback effectName="suitdeactiveateFF" />
+    </action>
+
+    <action name="FireDenied" >
+      <sound firstperson="Nanosuit_FireDenied_FP" />
+    </action>
+
+    <action name="Melee_Boosted">
+      <sound firstperson="Nanosuit_Perk_PowerMelee_FP" thirdperson="Nanosuit_Power_Melee" />
+      <cameraShake preset="meleeCamShake" />
+      <energy preset="energyPowerMelee" />
+      <screenFx library="player_fx" effect="suit_mode_power" GAME="SP"/>
+    </action>
+
+    <action name="Kick_Boosted">
+      <sound firstperson="Perk_BruteForce_KickHit_FP" thirdperson="Nanosuit_Power_Melee" />
+      <cameraShake preset="meleeCamShake" />
+      <energy preset="energyPowerMelee" />
+      <screenFx library="player_fx" effect="suit_mode_power" GAME="SP"/>
+    </action>
+
+    <action name="OnLowEnergy">
+      <sound firstperson="Player_NanoSuit_OnLowEnergy_FP" />
+    </action>
+
+    <!-- Perk actions -->
+    <action name="Perk_Stamp">
+      <screenFx library="player_fx" effect="suit_mode_power" GAME="SP"/>
+      <energy preset="energyPerkStamp" />
+    </action>
+
+    <action name="Perk_EMPBlast_SuitDeactivated">
+      <sound firstperson="EMPBlastSuitDeactivated_FP" thirdperson="EMPBlastSuitDeactivated_TP"/>
+      <sound firstperson="EMPBlastSuitDeactivated_Loop_FP" thirdperson="EMPBlastSuitDeactivated_Loop_TP"/>
+    </action>
+
+    <action name="Perk_EMPBlast_SuitRecovered">
+      <sound firstperson="EMPBlastSuitRecovered_FP" thirdperson="EMPBlastSuitRecovered_TP"/>
+    </action>
+		
+    <!-- Visor actions -->
+		<action name="Visor_Activated">
+      <sound firstperson="Visor_On_FP" thirdperson="Visor_On_3P">
+        <perkOverride perk="SensorPackage" firstperson="Visor_Perk_Sensor_On_FP" thirdperson="Visor_On_3P" />
+      </sound>
+		</action>
+		<action name="Visor_Activated_Loop">
+      <sound firstperson="Visor_Loop_FP" thirdperson="Visor_Loop_3P">
+        <perkOverride perk="SensorPackage" firstperson="Visor_Perk_Sensor_Loop_FP" thirdperson="Visor_Loop_3P" />
+      </sound>
+		</action>
+		<action name="Visor_Deactivated">
+      <sound firstperson="Visor_Off_FP" thirdperson="Visor_Off_3P">
+        <perkOverride perk="SensorPackage" firstperson="Visor_Perk_Sensor_Off_FP" thirdperson="Visor_Off_3P" />
+      </sound>
+		</action>
+  </SuitActions>
+  <SuitStates>
+    <SuitState name="PowerSprint">
+      <actionOnLeave name="OnDeactivate_Sprint" />
+      <actionOnEnter name="OnActivate_Sprint" />
+      <Readability>
+        <soundLoop firstperson="NanoSuit_Sprint_FP" thirdperson="NanoSuit_Sprint" paramSpeed="1" perkMuteSuitSoundTier="1" GAME="SP" />
+        <soundLoop firstperson="NanoSuit_Sprint_FP" thirdperson="NanoSuit_Sprint" paramSpeed="1" perkMuteSuitSoundTier="3" GAME="MP" />
+      </Readability>
+    </SuitState>
+
+    <SuitState name="Cloak">
+      <actionOnEnter name="OnActivate_Cloak" />
+      <actionOnLeave name="OnDeactivate_Cloak" />
+      <Readability>
+        <soundLoop firstperson="NanoSuit_Cloak_FP" thirdperson="NanoSuit_Cloak" >
+          <perkOverride perk="Phantom" firstperson="NanoSuit_Perk_Phantom_Cloak_FP" thirdperson="NanoSuit_Cloak" GAME="SP" />
+        </soundLoop>
+        <forceFeedback effectName="cloakactiveFF" />
+      </Readability>
+    </SuitState>
+
+    <SuitState name="LowEnergy">
+      <actionOnEnter name="OnLowEnergy" />
+      <Readability>
+        <soundLoop firstperson="Player_NanoSuit_LowEnergy_FP" thirdperson="Player_NanoSuit_LowEnergy" />
+      </Readability>
+    </SuitState>
+
+    <SuitState name="Player_Sliding">
+      <actionOnEnter name="OnSliding_Start" />
+      <actionOnLeave name="" />
+      <Readability>
+        <soundLoop firstperson="Player_Slide_FP" thirdperson="Player_Slide" />
+        <forceFeedback effectName="cloakactiveFF" />
+      </Readability>
+    </SuitState>
+
+    <SuitState name="Suit_EnergyDrain" time="0.5">
+      <actionOnEnter name="OnNanoSuit_EnterDrain" />
+      <Readability>
+				<soundLoop firstperson="Nanosuit_DrainEnergy_FP" thirdperson="Nanosuit_DrainEnergy" />
+      </Readability>
+    </SuitState>
+
+    <SuitState name="Suit_KVolt" >
+      <actionOnEnter name="OnNanoSuit_KVoltCharge" />
+      <actionOnLeave name="OnNanoSuit_Reboot" />
+      <Readability>
+        <soundLoop firstperson="Nanosuit_KVoltHit_FP" thirdperson="Nanosuit_KVoltHit" />
+      </Readability>
+    </SuitState>
+
+
+    <SuitState name="ArmorModeON">
+      <actionOnEnter name="ArmorModeON" />
+      <actionOnLeave name="ArmorModeOFF" />
+      <Readability>
+        <soundLoop firstperson="NanoSuit_ArmorModeLoop_FP" thirdperson="NanoSuit_ArmorModeLoop" >
+          <perkOverride perk="HeavyArmor" firstperson="NanoSuit_Perk_HeavyArmorModeLoop_FP" thirdperson="NanoSuit_ArmorModeLoop" GAME="SP" />
+          <perkOverride perk="ArmorEfficiency" firstperson="NanoSuit_Perk_LightArmorModeLoop_FP" thirdperson="NanoSuit_ArmorModeLoop" GAME="SP" />
+          <perkOverride perk="TeamSuitBoost" firstperson="NanoSuit_Perk_MaximumSuitLoop_FP" thirdperson="NanoSuit_ArmorModeLoop" GAME="SP" />
+        </soundLoop>
+      </Readability>
+    </SuitState>
+
+    <SuitState name="Suit_Disabled" >
+      <actionOnEnter name="OnNanoSuit_Disabled" />
+      <actionOnLeave name="OnNanoSuit_Reboot" />
+      <Readability>
+        <soundLoop firstperson="Nanosuit_DisabledState_FP" thirdperson="Nanosuit_DisabledState" GAME="SP"/>
+        <soundLoop firstperson="Nanosuit_DisabledState_FP_MP" thirdperson="Nanosuit_DisabledState_MP" setTeamParam="1" GAME="MP"/>
+      </Readability>
+    </SuitState>
+
+    <SuitState name="Suit_Disabled_ArmorDamaged" >
+      <actionOnEnter name="OnNanoSuit_Disabled_FromArmorDamaged" />
+      <actionOnLeave name="OnNanoSuit_Reboot" />
+      <Readability>
+        <soundLoop firstperson="Nanosuit_DisabledState_FP" thirdperson="Nanosuit_DisabledState" GAME="SP"/>
+        <soundLoop firstperson="Nanosuit_DisabledState_FP_MP" thirdperson="Nanosuit_DisabledState_MP" setTeamParam="1" GAME="MP"/>
+      </Readability>
+    </SuitState>
+
+    <SuitState name="Suit_Disabled_Uncloak" >
+      <actionOnEnter name="OnNanoSuit_Disabled_Uncloak" />
+      <actionOnLeave name="OnNanoSuit_Reboot" />
+      <Readability>
+        <soundLoop firstperson="Nanosuit_DisabledState_FP" thirdperson="Nanosuit_DisabledState" GAME="SP"/>
+        <soundLoop firstperson="Nanosuit_DisabledState_FP_MP" thirdperson="Nanosuit_DisabledState_MP" setTeamParam="1" GAME="MP"/>
+      </Readability>
+    </SuitState>
+
+    <SuitState name="Suit_Disabled_SuitDisruptor" >
+      <actionOnEnter name="OnNanoSuit_Disabled_SuitDisruptor" />
+      <actionOnLeave name="OnNanoSuit_Reboot" />
+      <Readability>
+        <soundLoop firstperson="Nanosuit_DisabledState_FP" thirdperson="Nanosuit_DisabledState" GAME="SP"/>
+        <soundLoop firstperson="Nanosuit_DisabledState_FP_MP" thirdperson="Nanosuit_DisabledState_MP" setTeamParam="1" GAME="MP"/>
+      </Readability>
+    </SuitState>
+
+  </SuitStates>
+
+  <CloakParams>
+    <!-- SP NANOSUIT VALUES -->
+    <!--  lightScale scales the blue electricity effect and blue outline on the cloak -->
+    <cvars GAME="SP"
+      r_CloakLightScale="0.25"
+      r_CloakTransitionLightScale="1.0"
+      r_CloakFadeLightScale="0.25"
+      r_CloakFadeByDist="0"
+      r_CloakRefractionFadeByDist="0"
+      r_CloakMinLightValue="0.0"
+      r_CloakRenderInThermalVision="1"
+      r_CloakHeatScale="0.2"
+      r_ArmourPulseSpeedMultiplier="0.35"
+      r_MaxSuitPulseSpeedMultiplier="1"
+
+      r_CloakFadeMinValue="0.2"
+      r_CloakFadeMinDistSq="1.0"
+      r_CloakFadeMaxDistSq="25.0"
+      r_CloakRefractionFadeMinValue="0.2"
+      r_CloakRefractionFadeMinDistSq="1.0"
+      r_CloakRefractionFadeMaxDistSq="25.0"
+      r_ThermalVisionViewDistance="150.0"
+      r_cloakHighlightStrength="100.0"
+      r_CloakInterferenceSparksAlpha="1000.0"
+      r_CloakSparksAlpha="1.0"
+      r_CloakMinAmbientIndoors="0.3"
+      r_CloakMinAmbientOutdoors="0.3"
+    />
+
+      <!-- MP NANOSUIT VALUES -->
+      <cvars GAME="MP">
+        <values console="1"
+        r_CloakTransitionLightScale="0.8"
+        r_CloakFadeLightScale="0.8"
+        r_CloakFadeByDist="1"
+        r_CloakFadeMinValue="0.1"
+        r_CloakFadeMinDistSq="625.0"
+        r_CloakFadeMaxDistSq="2025.0"
+        r_CloakRefractionFadeByDist="1"
+        r_CloakRefractionFadeMinValue="0.01"
+        r_CloakRefractionFadeMinDistSq="625.0"
+        r_CloakRefractionFadeMaxDistSq="2025.0"
+        r_CloakRenderInThermalVision="1"
+        r_CloakHeatScale="0.1"
+        r_ThermalVisionViewDistance="80"
+        r_ArmourPulseSpeedMultiplier="0.5"
+        r_MaxSuitPulseSpeedMultiplier="8"
+              
+        r_CloakMinLightValue="0.0"
+        r_CloakLightScale="2.0"
+              
+        r_cloakHighlightStrength="100.0"
+        r_CloakInterferenceSparksAlpha="1000.0"
+        r_CloakSparksAlpha="1.0"
+        r_CloakMinAmbientIndoors="0.3"
+        r_CloakMinAmbientOutdoors="0.3"
+      />
+
+      <values console="0"
+       r_CloakTransitionLightScale="0.8"
+       r_CloakFadeLightScale="0.8"
+       r_CloakFadeByDist="1"
+       r_CloakFadeMinValue="0.1"
+       r_CloakFadeMinDistSq="625.0"
+       r_CloakFadeMaxDistSq="2025.0"
+       r_CloakRefractionFadeByDist="1"
+       r_CloakRefractionFadeMinValue="0.01"
+       r_CloakRefractionFadeMinDistSq="625.0"
+       r_CloakRefractionFadeMaxDistSq="2025.0"
+       r_CloakRenderInThermalVision="1"
+       r_CloakHeatScale="0.1"
+       r_ThermalVisionViewDistance="80"
+       r_ArmourPulseSpeedMultiplier="0.5"
+       r_MaxSuitPulseSpeedMultiplier="8"
+              
+       r_CloakMinLightValue="0.0"
+       r_CloakLightScale="2.0"
+              
+       r_cloakHighlightStrength="100.0"
+       r_CloakInterferenceSparksAlpha="1000.0"
+       r_CloakSparksAlpha="1.0"
+       r_CloakMinAmbientIndoors="0.3"
+       r_CloakMinAmbientOutdoors="0.3"
+      />
+    </cvars>
+	
+	<!-- SHARED NANOSUIT VALUES -->	
+    <cvarsWithSpecialCallbacks>
+      <g_cloakRefractionScale value="3.0" GAME="SP"/>
+      <g_cloakRefractionScale value="10.0" GAME="MP"/>
+      <g_cloakBlendSpeedScale value="1.0" GAME="SP"/>
+      <g_cloakBlendSpeedScale value="2.0" GAME="MP"/>
+    </cvarsWithSpecialCallbacks>
+
+    <highlights explosionDuration="1.0" explosionFadeSpeed="1.0"/>
+    
+    <!-- MP Level specific overrides -->
+    <LevelOverrides>
+      <c3mp_airport         r_CloakFadeLightScale="0.25" r_CloakLightScale="2.5" />
+      <c3mp_bridge          r_CloakFadeLightScale="0.3" r_CloakLightScale="3" />
+      <c3mp_canyon          r_CloakFadeLightScale="0.4" r_CloakLightScale="2" />
+      <c3mp_cave            r_CloakFadeLightScale="0.4" r_CloakLightScale="4" />
+      <c3mp_con_ed          r_CloakFadeLightScale="0.4" r_CloakLightScale="4" />
+      <c3mp_dam             r_CloakFadeLightScale="0.3" r_CloakLightScale="3" />
+      <c3mp_fields          r_CloakFadeLightScale="0.4" r_CloakLightScale="4" />
+      <c3mp_museum          r_CloakFadeLightScale="0.6" r_CloakLightScale="6" />
+      <c3mp_river           r_CloakFadeLightScale="0.4" r_CloakLightScale="4" />
+      <c3mp_rooftop_gardens r_CloakFadeLightScale="0.6" r_CloakLightScale="6" /> 
+      <c3mp_swamp_boat      r_CloakFadeLightScale="0.6" r_CloakLightScale="4" />
+      <c3mp_tanker          r_CloakFadeLightScale="0.8" r_CloakLightScale="5" />
+    </LevelOverrides>
+
+  </CloakParams>
+
+  <SuitDisruptorParams>
+    <soundLoop name="SuitDisruptor" />
+    <soundEnd name="SuitDisruptorEnd" />
+  </SuitDisruptorParams>
+
+</NanoSuit>
