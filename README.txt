@@ -27,8 +27,9 @@ Mod folder layout:
 - No active C3BalanceMod work files should live under Mods/temp.
 
 Install:
-- Link patch3_c3balance.pak into the game's Patch folder as a hard link.
-- Remove or rename that pak to disable the mod.
+- Link this mod's patch3_c3balance.pak into the game's Patch folder as Patch/patch3.pak.
+- The game loads patch paks by the numeric pattern Patch/patch%d.pak, so Patch/patch3_c3balance.pak is not a valid install name.
+- Remove or rename Patch/patch3.pak to disable the mod.
 
 Notes:
 - Original game pak files are not modified.
