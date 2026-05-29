@@ -9,6 +9,7 @@ Effects:
 - The Lua ammo guard is kept as a fallback: real reserve-pool decreases are restored, pickups or other increases are remembered, and SP weapons whose whole ammo pool is the weapon magazine are restored without raising the original clip/energy pool size.
 - In single-player, entering cloak marks the player as invisible to AI and repeatedly sends target-loss signals to enemies that still have the player as their attention target.
 - Cloaked players are rejected by shared AI attention-target validation, human and Alien Grunt close-range cloak detection distances are set to 0, and Pinger radar/big ping/focus ping no longer reacquire or hit cloaked players.
+- Single-player collectible story items and nanosuit upgrades are forced into the tactical HUD path so they can be highlighted/scanned without building a separate map marker system.
 
 Files in this pak:
 - Scripts/Entities/actor/BasicActor.lua
@@ -18,6 +19,9 @@ Files in this pak:
 - Scripts/Entities/AI/Characters/Human_x.lua
 - Scripts/Entities/AI/NewAliens/AlienGrunt_x.lua
 - Scripts/Entities/AI/NewAliens/AlienPinger_x.lua
+- Scripts/Entities/Others/InteractiveEntity.lua
+- Scripts/Entities/Others/NanosuitUpgrade.lua
+- Libs/Libs/EntityArchetypes/Pickups.xml
 
 Mod folder layout:
 - patch3_c3balance.pak is the built pak copy for this mod.

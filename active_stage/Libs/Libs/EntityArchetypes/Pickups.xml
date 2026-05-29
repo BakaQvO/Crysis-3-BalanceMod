@@ -1,0 +1,1051 @@
+<EntityPrototypeLibrary Name="Pickups" SandboxVersion="1.0.0.1572">
+ <EntityPrototype Name="Weapons_Secondary.!CUT!_Hammer" Id="{DE310B81-99F6-4E4B-BF63-75CEC6925F7A}" Library="Pickups" Class="Hammer" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Explosives.JAW" Id="{4FF5C2A5-AD59-4126-A9E0-5F4940EB320E}" Library="Pickups" Class="JAW" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Jackal_CELL" Id="{B64E48A3-9F6F-4523-AF93-C75E61840AC0}" Library="Pickups" Class="Jackal" Description="">
+  <Properties HitPoints="0" initialSetup="Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.LTag" Id="{10862DEF-9032-4D20-BD80-626C4A8DE604}" Library="Pickups" Class="LTag" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.!CUT!_SCARAB" Id="{F49C7748-37D2-4A33-99A6-61698A3C70E0}" Library="Pickups" Class="SCARAB" Description="">
+  <Properties HitPoints="0" initialSetup="Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Secondary.Nova_Flashlight_CaveOnly" Id="{6AA2AF84-F2F8-412E-83B3-05C1850F6729}" Library="Pickups" Class="Nova" Description="">
+  <Properties HitPoints="0" initialSetup="Flashlight" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.!CUT!_Feline" Id="{82ED2B95-1A13-4459-BF0B-FBB0AD4D3B40}" Library="Pickups" Class="Feline" Description="">
+  <Properties HitPoints="0" initialSetup="Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Marshall" Id="{6EC1BFB0-7300-4B5E-8631-9AC56E5C461E}" Library="Pickups" Class="Marshall" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Mk60" Id="{84115FE3-0350-4D97-9509-E98F3EC61F40}" Library="Pickups" Class="Mk60" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.!CUT!_MIKE" Id="{2FC71866-A8FB-4F83-9F4B-94AF0C65CEA7}" Library="Pickups" Class="mike" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.!CUT!_K-Volt" Id="{6ED5E25C-624E-4B44-B08D-56ECAA03DC62}" Library="Pickups" Class="K-Volt" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Secondary.Majestic" Id="{47ABF552-D585-4BAF-A0BB-4F9450EEA8DF}" Library="Pickups" Class="Revolver" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Secondary.!CUT!_AY69" Id="{9FFC76ED-858E-4EB4-A9D9-FDF59194A152}" Library="Pickups" Class="AY69" Description="">
+  <Properties HitPoints="0" initialSetup="Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Explosives.REX_Charge" Id="{280A413A-0DEC-4941-AF9C-51A265DF09B0}" Library="Pickups" Class="C4" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Explosives.!CUT!_FragGrenade" Id="{55613F6C-46C9-4D00-AF44-4E9558F900F7}" Library="Pickups" Class="FragGrenades" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo.!CUT!_AmmoCrate_unlimited" Id="{C7960819-0305-406A-A9C3-E7E4C5E7F49B}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="" object_Ammo1Recharges="" object_Ammo2Recharges="" object_Ammo3Recharges="" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/mil_ammo_crate_open_refill.cgf" numberOfRecharges="0" bUsable="1" UseMessage="@ui_interaction_resupply_ammo">
+   <Ammo AmmoCategory="Regular" FragGrenades="2"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.!CUT!_Feline_REFLEX" Id="{B2B73A62-5E79-41D0-81F8-DE88238C2028}" Library="Pickups" Class="Feline" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.!CUT!_SCARAB_Reflex" Id="{B53AEA21-EA21-4BB7-83F2-E0E30EB06236}" Library="Pickups" Class="SCARAB" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Grendel_REFLEX" Id="{EECC4369-FAC5-4842-A8C1-BBD6374AE01F}" Library="Pickups" Class="Grendel" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.!CUT!_Gauss_REFLEX" Id="{5A96535D-BDCA-4557-8DCE-1CDA162A8A43}" Library="Pickups" Class="Gauss" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.!CUT!_SCAR_RANGED" Id="{963DA844-5ADE-4D8C-9D78-FE467D63ED4E}" Library="Pickups" Class="SCAR" Description="">
+  <Properties HitPoints="0" initialSetup="AssaultScope,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Mk60_RANGED" Id="{4F8E11C5-1A84-4D27-AA55-0186F0D1E73E}" Library="Pickups" Class="Mk60" Description="">
+  <Properties HitPoints="0" initialSetup="AssaultScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Secondary.Majestic_RANGED" Id="{B6BECB12-99A1-4D9E-8F66-B7642544DC41}" Library="Pickups" Class="Revolver" Description="">
+  <Properties HitPoints="0" initialSetup="AssaultScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Explosives.!CUT!_Swarmer" Id="{F65255F5-FAA3-4B46-B6A2-BA7AD19F71CE}" Library="Pickups" Class="swarmer" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="0" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Secondary.!CUT!_AY69_ExtMag_SPECOPS" Id="{363F103D-7E7F-4C91-8C7E-C272011FD1E5}" Library="Pickups" Class="AY69" Description="">
+  <Properties HitPoints="0" initialSetup="ExtendedClip,Reflex" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Jackal_CELL_SPECOPS" Id="{9237E884-BD74-4DD4-AF05-26363E6119EF}" Library="Pickups" Class="Jackal" Description="">
+  <Properties HitPoints="0" initialSetup="DoubleClipJackal,LaserSight" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Grendel_DEMOLITION" Id="{99D858F7-D600-41C9-9FF9-BDC116E54BAB}" Library="Pickups" Class="Grendel" Description="">
+  <Properties HitPoints="0" initialSetup="AssaultScope,GrenadeLauncher" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Marshall_STEALTH" Id="{CFF16D19-BD74-4636-AF50-0EA0AB459266}" Library="Pickups" Class="Marshall" Description="">
+  <Properties HitPoints="0" initialSetup="Silencer" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo.!CUT!_AmmoCrate_4x_refill" Id="{8F0B7BB6-D80C-4279-9367-67D3C72BCA15}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/mil_ammo_crate_small_ammo_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/mil_ammo_crate_small_ammo_25.cgf" object_Ammo2Recharges="objects/props/ammo_crates/mil_ammo_crate_small_ammo_50.cgf" object_Ammo3Recharges="objects/props/ammo_crates/mil_ammo_crate_small_ammo_75.cgf" object_Ammo4Recharges="objects/props/ammo_crates/mil_ammo_crate_small_ammo_100.cgf" object_BoxModel="objects/props/ammo_crates/mil_ammo_crate_small_open.cgf" numberOfRecharges="4" bUsable="1" UseMessage="@ui_interaction_resupply_ammo">
+   <Ammo AmmoCategory="Regular" FragGrenades="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo.!CUT!_AmmoCrate_3x_refill" Id="{168B9D51-F764-4F13-B0F3-E6A86F60BB28}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/mil_ammo_crate_small_ammo_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/mil_ammo_crate_small_ammo_25.cgf" object_Ammo2Recharges="objects/props/ammo_crates/mil_ammo_crate_small_ammo_50.cgf" object_Ammo3Recharges="objects/props/ammo_crates/mil_ammo_crate_small_ammo_75.cgf" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/mil_ammo_crate_small_open.cgf" numberOfRecharges="3" bUsable="1" UseMessage="@ui_interaction_resupply_ammo">
+   <Ammo AmmoCategory="Regular" FragGrenades="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo.!CUT!_AmmoCrate_2x_refill" Id="{1FA12317-7B3E-415F-A892-0352C765F4DD}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/mil_ammo_crate_small_ammo_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/mil_ammo_crate_small_ammo_25.cgf" object_Ammo2Recharges="objects/props/ammo_crates/mil_ammo_crate_small_ammo_50.cgf" object_Ammo3Recharges="" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/mil_ammo_crate_small_open.cgf" numberOfRecharges="2" bUsable="1" UseMessage="@ui_interaction_resupply_ammo">
+   <Ammo AmmoCategory="Regular" FragGrenades="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo.!CUT!_AmmoCrate_1x_refill" Id="{AF2CE4AE-4D71-495E-AC58-94F720422A08}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/mil_ammo_crate_small_ammo_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/mil_ammo_crate_small_ammo_25.cgf" object_Ammo2Recharges="" object_Ammo3Recharges="" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/mil_ammo_crate_small_open.cgf" numberOfRecharges="1" bUsable="1" UseMessage="@ui_interaction_resupply_ammo">
+   <Ammo AmmoCategory="Regular" FragGrenades="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Attachments.!CUT!_GaussAttachment" Id="{3D77B10E-B320-47AB-8BF1-808AFF34A11D}" Library="Pickups" Class="GaussAttachment" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Attachments.!CUT!_GrenadeLauncher" Id="{EAEBE932-2CDD-4863-91E7-362D4C6797D7}" Library="Pickups" Class="GrenadeLauncher" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Attachments.!CUT!_LaserSight" Id="{AD66B267-2A82-47D8-8642-35E0C14F7D72}" Library="Pickups" Class="LaserSight" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Attachments.!CUT!_LightShotgun" Id="{61F4BEC7-829E-498B-9DF0-B68558E8D801}" Library="Pickups" Class="LightShotgun" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Attachments.!CUT!_PistolLaserSight" Id="{2FC1592D-94F5-45A6-ADD5-C687B1A0DDC0}" Library="Pickups" Class="PistolLaserSight" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Attachments.!CUT!_Reflex" Id="{ED22F7F4-90D6-4F5B-B6E4-8902A24462A5}" Library="Pickups" Class="Reflex" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Attachments.!CUT!_Silencer" Id="{97A52B9E-6FBB-4DB3-8F7D-908EF3DB8C09}" Library="Pickups" Class="Silencer" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Attachments.!CUT!_SilencerPistol" Id="{4387F85F-1EBF-486E-B1E2-404EC31E4E30}" Library="Pickups" Class="SilencerPistol" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo.!CUT!_GrenadeCrate_1x_refill" Id="{E68282C6-BE42-4DB7-8C2E-BB581652EF7D}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/mil_ammo_crate_small_grenades_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/mil_ammo_crate_small_grenades_25.cgf" object_Ammo2Recharges="" object_Ammo3Recharges="" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/mil_ammo_crate_small_open.cgf" numberOfRecharges="1" bUsable="1" UseMessage="@ui_interaction_resupply_grenades">
+   <Ammo AmmoCategory="Regular" FragGrenades="2"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo.!CUT!_GrenadeCrate_2x_refill" Id="{6825CA25-D93B-4EBC-8780-88D7E2B6B51A}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/mil_ammo_crate_small_grenades_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/mil_ammo_crate_small_grenades_25.cgf" object_Ammo2Recharges="objects/props/ammo_crates/mil_ammo_crate_small_grenades_50.cgf" object_Ammo3Recharges="" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/mil_ammo_crate_small_open.cgf" numberOfRecharges="2" bUsable="1" UseMessage="@ui_interaction_resupply_grenades">
+   <Ammo AmmoCategory="Regular" FragGrenades="2"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo.!CUT!_GrenadeCrate_3x_refill" Id="{B986E474-7D47-4267-9DEE-11FDC6D11A2E}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/mil_ammo_crate_small_grenades_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/mil_ammo_crate_small_grenades_25.cgf" object_Ammo2Recharges="objects/props/ammo_crates/mil_ammo_crate_small_grenades_50.cgf" object_Ammo3Recharges="objects/props/ammo_crates/mil_ammo_crate_small_grenades_75.cgf" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/mil_ammo_crate_small_open.cgf" numberOfRecharges="3" bUsable="1" UseMessage="@ui_interaction_resupply_grenades">
+   <Ammo AmmoCategory="Regular" FragGrenades="2"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo.!CUT!_GrenadeCrate_4x_refill" Id="{DAE99365-55F9-48E8-AC28-CB6645B9B1D7}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/mil_ammo_crate_small_grenades_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/mil_ammo_crate_small_grenades_25.cgf" object_Ammo2Recharges="objects/props/ammo_crates/mil_ammo_crate_small_grenades_50.cgf" object_Ammo3Recharges="objects/props/ammo_crates/mil_ammo_crate_small_grenades_75.cgf" object_Ammo4Recharges="objects/props/ammo_crates/mil_ammo_crate_small_grenades_100.cgf" object_BoxModel="objects/props/ammo_crates/mil_ammo_crate_small_open.cgf" numberOfRecharges="4" bUsable="1" UseMessage="@ui_interaction_resupply_grenades">
+   <Ammo AmmoCategory="Regular" FragGrenades="2"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_SpecialSelect.Gauss_CELL_SpecialSelect" Id="{FE73E1F4-945E-471D-ABEB-CE63884BB4BA}" Library="Pickups" Class="CellGauss" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="1" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_SpecialSelect.!CUT!_MIKE_SpecialSelect" Id="{0E729B0B-3A4A-488B-A329-C1D998A77C7B}" Library="Pickups" Class="mike" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="1" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Feline_CELL" Id="{CC5458CE-7C78-44AC-B123-034E0C8F9B58}" Library="Pickups" Class="CellFeline" Description="">
+  <Properties HitPoints="0" initialSetup="Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Secondary.Hammer_CELL" Id="{70DD61FE-9B5B-4C1B-BE01-88C3D7A4BA3B}" Library="Pickups" Class="CellHammer" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.MIKE_CELL" Id="{985132D0-903F-4DAD-B3A9-A96A8B9976E8}" Library="Pickups" Class="Mike" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.SCARAB_CELL" Id="{40765CEF-E2EC-4D0D-B9A7-5E5EB24A6D12}" Library="Pickups" Class="CellSCARAB" Description="">
+  <Properties HitPoints="0" initialSetup="Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Grendel_RANGED" Id="{2714C5A6-E508-44BD-824B-4B653292535F}" Library="Pickups" Class="Grendel" Description="">
+  <Properties HitPoints="0" initialSetup="AssaultScope,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.!CUT!_SCAR_DEMOLITION" Id="{C5F2F48E-A75F-4E05-8FA1-FCE4FEEACFEB}" Library="Pickups" Class="SCAR" Description="">
+  <Properties HitPoints="0" initialSetup="GrenadeLauncher,AssaultScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Feline_CELL_COMMANDO" Id="{51ABF9B7-705A-4D3D-A13F-6825F6893B44}" Library="Pickups" Class="CellFeline" Description="">
+  <Properties HitPoints="0" initialSetup="SilencerPistol,LaserSight,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Grendel_SPECOPS" Id="{B9307C73-10CB-408B-BF39-2716DD9FBC41}" Library="Pickups" Class="Grendel" Description="">
+  <Properties HitPoints="0" initialSetup="MuzzleBreak,TyphoonAttachment,Reflex" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.SCAR_CELL_DEMOLITION" Id="{2F6C841B-DA6B-44AE-A7FC-8AF4FA9BDA6E}" Library="Pickups" Class="CellSCAR" Description="">
+  <Properties HitPoints="0" initialSetup="GrenadeLauncher,AssaultScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Gauss_CELL_REFLEX" Id="{9E8C73BE-0AEB-4657-8581-F48C37AD9E35}" Library="Pickups" Class="CellGauss" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.SCAR_CELL_SNIPER" Id="{F7567B0A-FDB1-49F2-B016-8DC6D5DF34BA}" Library="Pickups" Class="CellSCAR" Description="">
+  <Properties HitPoints="0" initialSetup="Single,SniperScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.SCAR_CELL_RANGED" Id="{E9ADF354-EF45-4FBF-B22F-941F3E2A2CA1}" Library="Pickups" Class="CellSCAR" Description="">
+  <Properties HitPoints="0" initialSetup="AssaultScope,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.SCARAB_CELL_SPECOPS" Id="{B38C4564-FC2C-43E4-8D5A-19F3BD1ED995}" Library="Pickups" Class="CellSCARAB" Description="">
+  <Properties HitPoints="0" initialSetup="MuzzleBreak,TyphoonAttachment,LaserSight" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.SCARAB_CELL_REFLEX" Id="{887A2D53-FBD1-462C-B768-A1E11B81FC1B}" Library="Pickups" Class="CellSCARAB" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.DSG1_PRECISION" Id="{5C0E1B15-F408-42D8-9DB4-88CD54B2C925}" Library="Pickups" Class="DSG1" Description="">
+  <Properties HitPoints="0" initialSetup="MatchBarrel,SniperScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.K-Volt_CELL" Id="{A63B4ECE-C6A1-4570-B374-6787A0C6F2F0}" Library="Pickups" Class="CellK-Volt" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_SpecialSelect.MIKE_CELL_SpecialSelect" Id="{EFBF258D-BCBB-4646-B442-F7417F9D25B8}" Library="Pickups" Class="Mike" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="1" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Secondary.!CUT!_Nova_Silencer_Laser_STEALTH" Id="{974DC973-A1B2-4EA0-9333-59C4A0347C55}" Library="Pickups" Class="Nova" Description="">
+  <Properties HitPoints="0" initialSetup="SilencerPistol,PistolLaserSight" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Feline_CELL_REFLEX" Id="{07268293-0385-4263-8D51-3E56DB3F3811}" Library="Pickups" Class="CellFeline" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.SCARAB_CELL_STEALTH" Id="{7F783924-A010-46E8-A2E1-F29101B44E0A}" Library="Pickups" Class="CellSCARAB" Description="">
+  <Properties HitPoints="0" initialSetup="Silencer,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.DSG1_STEALTH" Id="{A49A39A1-3AC4-4ED9-85D8-7E1EEC9ACF2B}" Library="Pickups" Class="DSG1" Description="">
+  <Properties HitPoints="0" initialSetup="Silencer,SniperScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Secondary.Hammer_CELL_COMMANDO" Id="{0A2B240C-607D-4BA6-A5BC-4AB356D46FA1}" Library="Pickups" Class="CellHammer" Description="">
+  <Properties HitPoints="0" initialSetup="SilencerPistol,PistolLaserSight" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Gauss_CELL" Id="{F522D44E-8FFB-4666-8A21-927CBAD5926C}" Library="Pickups" Class="CellGauss" Description="">
+  <Properties HitPoints="0" initialSetup="SniperScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Typhoon_RANGED" Id="{34B64ABC-B364-41B5-8A36-9E091078AC04}" Library="Pickups" Class="Typhoon" Description="">
+  <Properties HitPoints="0" initialSetup="AssaultScope,Single" bMounted="0" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Typhoon_REFLEX" Id="{71C80CAB-44B6-45A3-92A1-6AD24741B73F}" Library="Pickups" Class="Typhoon" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex,Single" bMounted="0" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo_Crates.Ammo_Crate_1x_Refill" Id="{239673B2-4043-43D9-8AEA-A235F3EDA022}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/ammo_crate_small_ammo_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/ammo_crate_small_ammo_25.cgf" object_Ammo2Recharges="" object_Ammo3Recharges="" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/ammo_crate_small_open.cgf" numberOfRecharges="1" bUsable="1" UseMessage="@ui_interaction_resupply_ammo">
+   <Ammo AmmoCategory="regular" FragGrenades="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo_Crates.Ammo_Crate_2x_Refill" Id="{DDB4C9F6-BC38-460B-B743-819192253A40}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/ammo_crate_small_ammo_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/ammo_crate_small_ammo_25.cgf" object_Ammo2Recharges="objects/props/ammo_crates/ammo_crate_small_ammo_50.cgf" object_Ammo3Recharges="" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/ammo_crate_small_open.cgf" numberOfRecharges="2" bUsable="1" UseMessage="@ui_interaction_resupply_ammo">
+   <Ammo AmmoCategory="regular" FragGrenades="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo_Crates.Ammo_Crate_3x_Refill" Id="{94DDCE6F-28E8-48A2-960A-C3F34E03A98E}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/ammo_crate_small_ammo_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/ammo_crate_small_ammo_25.cgf" object_Ammo2Recharges="objects/props/ammo_crates/ammo_crate_small_ammo_50.cgf" object_Ammo3Recharges="objects/props/ammo_crates/ammo_crate_small_ammo_75.cgf" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/ammo_crate_small_open.cgf" numberOfRecharges="3" bUsable="1" UseMessage="@ui_interaction_resupply_ammo">
+   <Ammo AmmoCategory="regular" FragGrenades="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo_Crates.Ammo_Crate_4x_Refill" Id="{7C4D7310-FCC1-470F-BBB1-199A81AE5FB1}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/ammo_crate_small_ammo_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/ammo_crate_small_ammo_25.cgf" object_Ammo2Recharges="objects/props/ammo_crates/ammo_crate_small_ammo_50.cgf" object_Ammo3Recharges="objects/props/ammo_crates/ammo_crate_small_ammo_75.cgf" object_Ammo4Recharges="objects/props/ammo_crates/ammo_crate_small_ammo_100.cgf" object_BoxModel="objects/props/ammo_crates/ammo_crate_small_open.cgf" numberOfRecharges="4" bUsable="1" UseMessage="@ui_interaction_resupply_ammo">
+   <Ammo AmmoCategory="regular" FragGrenades="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo_Crates.Ammo_Crate_Unlimited" Id="{E718FDF4-F04B-428D-A54A-CDBA49112BD6}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="" object_Ammo1Recharges="" object_Ammo2Recharges="" object_Ammo3Recharges="" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/ammo_crate_medium_ammo.cgf" numberOfRecharges="0" bUsable="1" UseMessage="@ui_interaction_resupply_grenades_ammo">
+   <Ammo AmmoCategory="regular" FragGrenades="2"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo_Crates.Grenade_Crate_1x_Refill" Id="{AB48EE51-CA96-433D-985B-24FB19A41E54}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_25.cgf" object_Ammo2Recharges="" object_Ammo3Recharges="" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/ammo_crate_expl_open.cgf" numberOfRecharges="1" bUsable="1" UseMessage="@ui_interaction_resupply_grenades">
+   <Ammo AmmoCategory="grenade" FragGrenades="2"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo_Crates.Grenade_Crate_2x_Refill" Id="{37F32B7A-33E1-4466-ABA3-CA22BE4CA9C5}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_25.cgf" object_Ammo2Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_50.cgf" object_Ammo3Recharges="" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/ammo_crate_expl_open.cgf" numberOfRecharges="2" bUsable="1" UseMessage="@ui_interaction_resupply_grenades">
+   <Ammo AmmoCategory="grenade" FragGrenades="2"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo_Crates.Grenade_Crate_3x_Refill" Id="{9651B922-D1C9-4EC6-91D1-9367AEF7BED7}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_25.cgf" object_Ammo2Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_50.cgf" object_Ammo3Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_75.cgf" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/ammo_crate_expl_open.cgf" numberOfRecharges="3" bUsable="1" UseMessage="@ui_interaction_resupply_grenades">
+   <Ammo AmmoCategory="grenade" FragGrenades="2"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo_Crates.Grenade_Crate_4x_Refill" Id="{A8FED301-32C5-4C92-911D-CFAE6DD8D1FC}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_25.cgf" object_Ammo2Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_50.cgf" object_Ammo3Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_75.cgf" object_Ammo4Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_100.cgf" object_BoxModel="objects/props/ammo_crates/ammo_crate_expl_open.cgf" numberOfRecharges="4" bUsable="1" UseMessage="@ui_interaction_resupply_grenades">
+   <Ammo AmmoCategory="grenade" FragGrenades="2"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo_Crates.Special_Crate_1x_Refill" Id="{0F2C011F-F9BD-49FD-87D3-56A6AC4D7400}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/ammo_crate_special_ammo_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/ammo_crate_special_ammo_25.cgf" object_Ammo2Recharges="" object_Ammo3Recharges="" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/ammo_crate_special_open.cgf" numberOfRecharges="1" bUsable="1" UseMessage="@ui_interaction_resupply_special_ammo">
+   <Ammo AmmoCategory="special" FragGrenades="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo_Crates.Special_Crate_2x_Refill" Id="{0117D433-9603-4D50-9719-02970034D852}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/ammo_crate_special_ammo_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/ammo_crate_special_ammo_25.cgf" object_Ammo2Recharges="objects/props/ammo_crates/ammo_crate_special_ammo_50.cgf" object_Ammo3Recharges="" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/ammo_crate_special_open.cgf" numberOfRecharges="2" bUsable="1" UseMessage="@ui_interaction_resupply_special_ammo">
+   <Ammo AmmoCategory="special" FragGrenades="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo_Crates.Special_Crate_3x_Refill" Id="{305A9259-4D60-46F2-B24B-DF051F48D7ED}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/ammo_crate_special_ammo_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/ammo_crate_special_ammo_25.cgf" object_Ammo2Recharges="objects/props/ammo_crates/ammo_crate_special_ammo_50.cgf" object_Ammo3Recharges="objects/props/ammo_crates/ammo_crate_special_ammo_75.cgf" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/ammo_crate_special_open.cgf" numberOfRecharges="3" bUsable="1" UseMessage="@ui_interaction_resupply_special_ammo">
+   <Ammo AmmoCategory="special" FragGrenades="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo_Crates.Special_Crate_4x_Refill" Id="{DF990896-3459-48CF-9633-C2292D147EED}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/ammo_crate_special_ammo_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/ammo_crate_special_ammo_25.cgf" object_Ammo2Recharges="objects/props/ammo_crates/ammo_crate_special_ammo_50.cgf" object_Ammo3Recharges="objects/props/ammo_crates/ammo_crate_special_ammo_75.cgf" object_Ammo4Recharges="objects/props/ammo_crates/ammo_crate_special_ammo_100.cgf" object_BoxModel="objects/props/ammo_crates/ammo_crate_special_open.cgf" numberOfRecharges="4" bUsable="1" UseMessage="@ui_interaction_resupply_special_ammo">
+   <Ammo AmmoCategory="special" FragGrenades="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo_Crates.Bow_Crate_1x_Refill" Id="{A0D641C3-FF05-4562-82CA-8A1FC02058AE}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/bow_crate_empty.cgf" object_Ammo1Recharges="objects/props/ammo_crates/bow_crate_full.cgf" object_Ammo2Recharges="" object_Ammo3Recharges="" object_Ammo4Recharges="" object_BoxModel="objects/props/ammo_crates/bow_crate.cgf" numberOfRecharges="1" bUsable="1" UseMessage="@ui_interaction_resupply_bow_ammo">
+   <Ammo AmmoCategory="bow" FragGrenades="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="NanosuitUpgrades.UpgradeKit_1" Id="{A3A2A607-9E4B-4195-B8BB-AD13C664009D}" Library="Pickups" Class="AlienBattery" Description="">
+  <Properties object_Model="objects/props/ammo_crates/nano_crate_wb.cgf" bUsable="1" UseMessage="@ui_interaction_collect_nanosuit_upgrade">
+   <FXControl Active="Crysis2_alien_effects.alien_battery.in_range" Idle="Crysis2_alien_effects.alien_battery.idle"/>
+   <MaterialControl bEnabled="0" fGlowActive="15" fGlowDisabled="0.5" fGlowInactive="5" SubMaterial="battery"/>
+   <Physics fMass="0" bPushableByPlayers="0" bRigidBody="1"/>
+   <SuitEffects fEnergyRegenRate="-1" fRange="-1" bSuitSupercharge="0" fSuitSuperchargeTime="-1"/>
+   <Vulnerability bDestroyable="0" ExplosiveClass="AlienBatteryExplosive" ExplosiveDamage="900" fHealth="2000" NonChargedDetroyEffect="Crysis2_alien_effects.grunt.gibbed"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.FY71" Id="{975C5013-B325-4A38-88FD-2218367AF431}" Library="Pickups" Class="FY71" Description="">
+  <Properties HitPoints="0" initialSetup="Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.FY71_RANGED" Id="{368DD3F2-9A5A-4862-9C87-560D3D6BBF9C}" Library="Pickups" Class="FY71" Description="">
+  <Properties HitPoints="0" initialSetup="AssaultScope,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.FY71_REFLEX" Id="{0F2F14C6-29C5-46F4-ACCE-113EC75B5927}" Library="Pickups" Class="FY71" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.FY71_DEMOLITION" Id="{37AB4143-5E0C-462C-A790-6470DCC2ABA3}" Library="Pickups" Class="FY71" Description="">
+  <Properties HitPoints="0" initialSetup="GrenadeLauncher,AssaultScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.MIKE_CELL_THERMAL" Id="{C9944349-7BE9-493E-8678-3F3FBEB38345}" Library="Pickups" Class="mike" Description="">
+  <Properties HitPoints="0" initialSetup="TechScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Alien.Reaper_Cannon" Id="{266F57A7-C2E1-43B6-8236-B71414E4541C}" Library="Pickups" Class="Heavy_minigun" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Alien.X-PAC_Mortar" Id="{89FBAEB6-C706-4465-B48F-19053AFA857C}" Library="Pickups" Class="Heavy_mortar" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Alien.Incinerator" Id="{57B28572-14C4-4A56-8C8C-AC39EBAE7605}" Library="Pickups" Class="plasma_thrower" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Alien.Pinch_Rifle" Id="{9CBEA38C-6BBD-483C-A104-F541FB02CAED}" Library="Pickups" Class="Grunt_PlasmaRifle" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Alien.Bolt_Sniper" Id="{553EA597-EC87-43B9-B309-33169B6F374E}" Library="Pickups" Class="LightningGun" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="NanosuitUpgrades.Kit_normal" Id="{34A33FDC-EA95-4FBA-9690-6A1C21FF42C4}" Library="Pickups" Class="NanosuitUpgrade" Description="">
+  <Properties object_Model="objects/props/ammo_crates/nano_crate_wb.cgf" OnUsedParticleEffect="" nUpgradePoints="1" bUsable="1" UseMessage="@ui_interaction_collect_nanosuit_upgrade">
+   <Physics fMass="0" bPushableByPlayers="0" bRigidBody="0"/>
+   <Tutorial bShowAlways="1"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="NanosuitUpgrades.Kit_showalways" Id="{D55FAB37-4141-4454-96F2-8A75F84F89BA}" Library="Pickups" Class="NanosuitUpgrade" Description="">
+  <Properties object_Model="objects/props/ammo_crates/nano_crate_wb.cgf" OnUsedParticleEffect="" nUpgradePoints="4" bUsable="1" UseMessage="@ui_interaction_collect_nanosuit_upgrade">
+   <Physics fMass="0" bPushableByPlayers="0" bRigidBody="0"/>
+   <Tutorial bShowAlways="1"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Feline_CELL_LASER" Id="{F7553852-B2E9-4BE1-86A2-6543B2A4EF25}" Library="Pickups" Class="CellFeline" Description="">
+  <Properties HitPoints="0" initialSetup="LaserSight,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Feline_CELL_HIGHCAP" Id="{6200048F-4F69-4C08-A0B9-E77FAD46A45C}" Library="Pickups" Class="CellFeline" Description="">
+  <Properties HitPoints="0" initialSetup="LaserSight,ExtendedClipFeline" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Feline_CELL_SPECOPS" Id="{A9853B17-5D7E-4DD0-9A5B-2DCE4F86B8D2}" Library="Pickups" Class="CellFeline" Description="">
+  <Properties HitPoints="0" initialSetup="LaserSight,DoubleClipFeline" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.K-Volt_CELL_REFLEX" Id="{3046C511-2705-4A8F-BA1C-EB470B4C5E7A}" Library="Pickups" Class="CellK-Volt" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.K-Volt_CELL_RANGED" Id="{DBC128AB-AF10-4DE4-A24D-8F46FDA5384C}" Library="Pickups" Class="CellK-Volt" Description="">
+  <Properties HitPoints="0" initialSetup="AssaultScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Marshall_RANGED" Id="{D648DC69-1982-4BB7-BEDE-0A8AFB6483BF}" Library="Pickups" Class="Marshall" Description="">
+  <Properties HitPoints="0" initialSetup="MuzzleBreak,AssaultScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Marshall_REFLEX" Id="{7C72240C-1932-4E90-86AD-A4D8CAA621E8}" Library="Pickups" Class="Marshall" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Marshall_SPECOPS" Id="{AFE152B1-879B-4875-B579-E50608F83D1D}" Library="Pickups" Class="Marshall" Description="">
+  <Properties HitPoints="0" initialSetup="Bayonet,LaserSight" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.SCARAB_CELL_CQC" Id="{A456528C-4A7F-435B-9486-60829F2CEF41}" Library="Pickups" Class="CellSCARAB" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex,ForeGrip" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.SCARAB_CELL_HIGHCAP" Id="{C25B5EC3-37F2-4CD7-B3AD-94E353E5CA1A}" Library="Pickups" Class="CellSCARAB" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex,ExtendedClipSCAR" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.SCARAB_CELL_RANGED" Id="{0BC21808-F61C-47A1-9D19-D891A36B3DDC}" Library="Pickups" Class="CellSCARAB" Description="">
+  <Properties HitPoints="0" initialSetup="AssaultScope,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.SCARAB_CELL_COMMANDO" Id="{6C6BE14D-A1DD-400E-8748-5EC9AD05A18D}" Library="Pickups" Class="CellSCARAB" Description="">
+  <Properties HitPoints="0" initialSetup="LaserSight,Silencer,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.DSG1" Id="{C2863D50-2912-4571-93EA-AD5BCCCBDEA4}" Library="Pickups" Class="DSG1" Description="">
+  <Properties HitPoints="0" initialSetup="SniperScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.DSG1_THERMAL" Id="{5F271A7A-85C9-41FC-AB9D-D01D9C2FFB84}" Library="Pickups" Class="DSG1" Description="">
+  <Properties HitPoints="0" initialSetup="TechScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.DSG1_MARKSMAN" Id="{A74BDD3F-7B14-421C-A442-C40FF61893D6}" Library="Pickups" Class="DSG1" Description="">
+  <Properties HitPoints="0" initialSetup="MuzzleBreak,AssaultScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.DSG1_REFLEX" Id="{69AB77C5-480C-47E2-8EA8-6EDD636EBB92}" Library="Pickups" Class="DSG1" Description="">
+  <Properties HitPoints="0" initialSetup="MuzzleBreak,Reflex" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.!CUT!_Gauss_THERMAL" Id="{DA567FEC-0405-49E5-95E4-75CC0F52FF4C}" Library="Pickups" Class="Gauss" Description="">
+  <Properties HitPoints="0" initialSetup="TechScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.!CUT!_Gauss_RANGED" Id="{9B93D951-2ABF-4572-870F-E85FF3DE14F1}" Library="Pickups" Class="Gauss" Description="">
+  <Properties HitPoints="0" initialSetup="AssaultScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Gauss_CELL_RANGED" Id="{3CA4BF52-71DD-40D5-8AE0-05A9A71350AB}" Library="Pickups" Class="CellGauss" Description="">
+  <Properties HitPoints="0" initialSetup="AssaultScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Gauss_CELL_THERMAL" Id="{905828DC-1EC1-4630-A65A-6E0203789DFF}" Library="Pickups" Class="CellGauss" Description="">
+  <Properties HitPoints="0" initialSetup="TechScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Jackal_CELL_CQC" Id="{FB2AC498-A5B8-45EA-B1CA-E930D4F81A39}" Library="Pickups" Class="Jackal" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex,ForeGrip" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Jackal_CELL_HIGHCAP" Id="{F3C1CF7D-CF6A-4072-A677-C273CE96E97C}" Library="Pickups" Class="Jackal" Description="">
+  <Properties HitPoints="0" initialSetup="ExtendedClipJackal" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Jackal_CELL_LASER" Id="{94469B76-C410-4C6F-A853-D79FC5090340}" Library="Pickups" Class="Jackal" Description="">
+  <Properties HitPoints="0" initialSetup="LaserSight,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Jackal_CELL_RANGED" Id="{4C9B0FE6-EDE2-4555-95A9-28B274F4D2F4}" Library="Pickups" Class="Jackal" Description="">
+  <Properties HitPoints="0" initialSetup="AssaultScope,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Jackal_CELL_REFLEX" Id="{371CA4AA-BB07-4DD7-9207-C77F6BA962AA}" Library="Pickups" Class="Jackal" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.MIKE_CELL_REFLEX" Id="{FAFF3F5D-BFD4-4558-B14A-99F971F32B08}" Library="Pickups" Class="mike" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.MIKE_CELL_LASER" Id="{AD4F994C-9F85-4D56-8DB3-E82CAD5BF8BD}" Library="Pickups" Class="mike" Description="">
+  <Properties HitPoints="0" initialSetup="LaserSight" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Mk60_THERMAL" Id="{010CC86F-AD23-4DF2-B0EA-484F11BCE3A2}" Library="Pickups" Class="Mk60" Description="">
+  <Properties HitPoints="0" initialSetup="TechScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Mk60_REFLEX" Id="{B9913B61-89B1-4254-B6F4-8B22F2020F4D}" Library="Pickups" Class="Mk60" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Typhoon" Id="{2E517607-23F7-45F9-A645-5C2AA5F2BE8F}" Library="Pickups" Class="Typhoon" Description="">
+  <Properties HitPoints="0" initialSetup="Single" bMounted="0" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Typhoon_THERMAL" Id="{25F98FAA-D3A9-4645-B6BC-B87FBAE8D23A}" Library="Pickups" Class="Typhoon" Description="">
+  <Properties HitPoints="0" initialSetup="TechScope,Single" bMounted="0" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Typhoon_LASER" Id="{6A5A841B-6A64-489D-9B48-B30C28A44F9E}" Library="Pickups" Class="Typhoon" Description="">
+  <Properties HitPoints="0" initialSetup="LaserSight,Single" bMounted="0" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Typhoon_CQC" Id="{B21B9910-0CFE-490F-8451-18410DC1780D}" Library="Pickups" Class="Typhoon" Description="">
+  <Properties HitPoints="0" initialSetup="ForeGrip,Reflex" bMounted="0" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Grendel" Id="{3B51F600-7E4A-4993-8A9F-A8644EB51AEE}" Library="Pickups" Class="Grendel" Description="">
+  <Properties HitPoints="0" initialSetup="Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Grendel_SNIPER" Id="{6265B3ED-D02F-4247-9E3A-0436FD7E0ACB}" Library="Pickups" Class="Grendel" Description="">
+  <Properties HitPoints="0" initialSetup="SniperScope,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.Grendel_CQC" Id="{F794DE34-91BD-4140-9CF3-1E7BC5936B09}" Library="Pickups" Class="Grendel" Description="">
+  <Properties HitPoints="0" initialSetup="ForeGrip,Reflex" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.SCAR_CELL_CQC" Id="{1189BEC7-4BC8-4415-A92D-DA47C7DC8D4A}" Library="Pickups" Class="CellSCAR" Description="">
+  <Properties HitPoints="0" initialSetup="ForeGrip,Reflex" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.SCAR_CELL_HIGHCAP" Id="{051587F1-7194-4F38-B0E1-32F9D866421E}" Library="Pickups" Class="CellSCAR" Description="">
+  <Properties HitPoints="0" initialSetup="ExtendedClipSCAR,Reflex" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.SCAR_CELL_STEALTH" Id="{ADF351B5-7E25-460F-BB98-7C4DF7090D8C}" Library="Pickups" Class="CellSCAR" Description="">
+  <Properties HitPoints="0" initialSetup="Silencer,Single,AssaultScope" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.SCAR_CELL_REFLEX" Id="{DEF8303B-5830-4797-9EA6-D0A5BA7C96E3}" Library="Pickups" Class="CellSCAR" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.FY71_LASER" Id="{F9A54BEB-979B-4773-BBC0-11A4433ED86D}" Library="Pickups" Class="FY71" Description="">
+  <Properties HitPoints="0" initialSetup="LaserSight,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.FY71_PRECISION" Id="{13C3DE7A-B13D-439D-8364-3513152B04E0}" Library="Pickups" Class="FY71" Description="">
+  <Properties HitPoints="0" initialSetup="MatchBarrel,AssaultScope,Single" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.FY71_SPECOPS" Id="{6B23DCB1-0774-4901-980C-7FE573261352}" Library="Pickups" Class="FY71" Description="">
+  <Properties HitPoints="0" initialSetup="TyphoonAttachment,LaserSight" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Primary.FY71_CQC" Id="{A48052FA-2AE5-4575-B66C-A8E7CB629429}" Library="Pickups" Class="FY71" Description="">
+  <Properties HitPoints="0" initialSetup="ForeGrip,Reflex" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Secondary.Majestic_REFLEX" Id="{53471164-CB20-4322-88D6-73D6F1FCA34A}" Library="Pickups" Class="Revolver" Description="">
+  <Properties HitPoints="0" initialSetup="Reflex" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Secondary.Majestic_LASER" Id="{468C0C80-A2E1-421C-940C-3006485C5DB4}" Library="Pickups" Class="Revolver" Description="">
+  <Properties HitPoints="0" initialSetup="PistolLaserSight" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Secondary.Hammer_CELL_STEALTH" Id="{589AD1EA-3F3F-450A-9123-A24663F754E2}" Library="Pickups" Class="CellHammer" Description="">
+  <Properties HitPoints="0" initialSetup="SilencerPistol" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Secondary.Hammer_CELL_LASER" Id="{1AE390BE-1E55-46EC-9238-28A4A62BE9A4}" Library="Pickups" Class="CellHammer" Description="">
+  <Properties HitPoints="0" initialSetup="PistolLaserSight" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Secondary.Hammer_CELL_SPECOPS" Id="{9784F931-9AB4-479E-89F2-EA2EAC8B6C4B}" Library="Pickups" Class="CellHammer" Description="">
+  <Properties HitPoints="0" initialSetup="MuzzleBreak,PistolLaserSight" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Weapons_Secondary.Hammer_CELL_PRECISION" Id="{4DD23727-B8EE-4B69-8E82-7D3312A3D72B}" Library="Pickups" Class="CellHammer" Description="">
+  <Properties HitPoints="0" initialSetup="MatchBarrel" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="1" CreatedThroughPool="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo_Crates.Grenade_Crate_Unlimited" Id="{3BA2A490-AB83-474C-8F4F-F69FAD457CBF}" Library="Pickups" Class="AmmoCrate" Description="">
+  <Properties object_Ammo0Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_0.cgf" object_Ammo1Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_25.cgf" object_Ammo2Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_50.cgf" object_Ammo3Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_75.cgf" object_Ammo4Recharges="objects/props/ammo_crates/ammo_crate_small_grenades_100.cgf" object_BoxModel="objects/props/ammo_crates/ammo_crate_expl_open.cgf" numberOfRecharges="0" bUsable="1" UseMessage="@ui_interaction_resupply_grenades">
+   <Ammo AmmoCategory="grenade" FragGrenades="2"/>
+   <AdditionalArchetypeProperties PrototypeMaterial=""/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
+ </EntityPrototype>
+</EntityPrototypeLibrary>
