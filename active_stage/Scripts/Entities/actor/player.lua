@@ -15,8 +15,24 @@ local C3BalanceMod_ClipOnlyAmmo =
 	typhoonbullet = true,
 };
 
+local C3BalanceMod_ConsumableAmmo =
+{
+	StickyArrow = true,
+};
+
 local C3BalanceMod_CloakGuardTimer = 7;
 local C3BalanceMod_CloakGuardIntervalMs = 200;
+
+local C3BalanceMod_ScanDistanceCVars =
+{
+	{ name = "hud_InterestPointsMaxDist", multiplier = 2.0 },
+	{ name = "hud_InterestPointsPingDistance", multiplier = 2.0 },
+	{ name = "hud_HackingVisibleRangeDistance", multiplier = 2.0 },
+	{ name = "pl_aim_near_lookat_target_distance", multiplier = 2.0 },
+	{ name = "g_highlightingMaxDistanceToHighlightSquared", multiplier = 4.0 },
+};
+
+C3BalanceMod_GlobalState = C3BalanceMod_GlobalState or {};
 
 local function C3BalanceMod_Log(message)
 	if (System and System.Log) then
@@ -362,6 +378,8 @@ function Player:OnReset(bFromInit, bIsReload)
 		end
 	end
 
+	self:C3BalanceMod_ApplyScanDistanceCVars();
+
 	self:SetTimer(0,500);
 	self:SetTimer(PLAYER_AMMO_GUARD_TIMER,50);
 	self:SetTimer(C3BalanceMod_CloakGuardTimer,C3BalanceMod_CloakGuardIntervalMs);
@@ -391,6 +409,7 @@ end
 
 function Player:OnUpdateView(frameTime)
 --	HUD:UpdateHUD(self, frameTime, true);--not self:IsHidden());
+	self:C3BalanceMod_UpdateInfiniteAmmoCVar();
 	self:C3BalanceMod_RecordReserveAmmo();
 	self:C3BalanceMod_UpdateCloakTargetLoss(false);
 end
@@ -456,6 +475,30 @@ function Player:C3BalanceMod_UpdateCloakTargetLoss(forceScan)
 	end
 end
 
+function Player:C3BalanceMod_ApplyScanDistanceCVars()
+	if (System.IsMultiplayer() or not System.SetCVar or not System.GetCVar or C3BalanceMod_GlobalState.scanDistanceApplied) then
+		return;
+	end
+
+	local patchedCount = 0;
+	for i, cvar in ipairs(C3BalanceMod_ScanDistanceCVars) do
+		local current = System.GetCVar(cvar.name);
+		local value = tonumber(current);
+		if (value and value > 0) then
+			local patched = value * cvar.multiplier;
+			System.SetCVar(cvar.name, patched);
+			C3BalanceMod_Log("scan distance cvar " .. cvar.name .. "=" .. tostring(value) .. " -> " .. tostring(patched));
+			patchedCount = patchedCount + 1;
+		else
+			C3BalanceMod_Log("scan distance cvar unavailable " .. cvar.name .. "=" .. tostring(current));
+		end
+	end
+
+	if (patchedCount > 0) then
+		C3BalanceMod_GlobalState.scanDistanceApplied = true;
+	end
+end
+
 function Player:C3BalanceMod_GetCurrentAmmoName()
 	if (not self.inventory) then
 		return nil;
@@ -470,6 +513,23 @@ function Player:C3BalanceMod_GetCurrentAmmoName()
 	end
 
 	return nil;
+end
+
+function Player:C3BalanceMod_UpdateInfiniteAmmoCVar()
+	if (System.IsMultiplayer() or not System.SetCVar) then
+		return;
+	end
+
+	local infiniteAmmo = 1;
+	local ammoName = self:C3BalanceMod_GetCurrentAmmoName();
+	if (C3BalanceMod_ConsumableAmmo[ammoName]) then
+		infiniteAmmo = 0;
+	end
+
+	if (self.c3BalanceModInfiniteAmmoCVar ~= infiniteAmmo) then
+		System.SetCVar("g_infiniteAmmo", infiniteAmmo);
+		self.c3BalanceModInfiniteAmmoCVar = infiniteAmmo;
+	end
 end
 
 function Player:C3BalanceMod_RecordWeaponAmmo(weapon, ammoName)
@@ -533,6 +593,10 @@ function Player:C3BalanceMod_RecordReserveAmmo()
 		return;
 	end
 
+	if (C3BalanceMod_ConsumableAmmo[ammoName]) then
+		return;
+	end
+
 	if (C3BalanceMod_ClipOnlyAmmo[ammoName]) then
 		self:C3BalanceMod_RecordWeaponAmmo(item.weapon, ammoName);
 		return;
@@ -579,6 +643,7 @@ function Player.Client:OnTimer(timerId,mSec)
 			if AI then AI.ChangeParameter( self.id, AIPARAM_COMBATCLASS, AICombatClasses.Player ) end
 		end
 	elseif(timerId==PLAYER_AMMO_GUARD_TIMER) then
+		self:C3BalanceMod_UpdateInfiniteAmmoCVar();
 		self:C3BalanceMod_RecordReserveAmmo();
 		self:SetTimer(PLAYER_AMMO_GUARD_TIMER,50);
 	elseif(timerId==C3BalanceMod_CloakGuardTimer) then

@@ -1,0 +1,601 @@
+<item name="NanoBowMPPred" class="Bow" category="primary" priority="12" weaponParams="1">
+  <params>
+    <param name="display_name" value="@mp_eNanoBow" />
+    <param name="giveable" 		value="1" />
+    <param name="selectable" 	value="1" />
+    <param name="pose" 				value="bow" />
+		<param name="itemClass" 			value="rifle" />
+	<param name="droppable"			value="0" GAME="MP" />
+	<param name="pickable"			value="0" GAME="MP" />	
+    <param name="slidePose" 		value="bow" />
+    <param name="slideAimPose" 	value="bow_aim" />
+    <param name="suffix" 			value="shoulder" />
+    <param name="mass"				value="3" />
+    <param name="melee_attack_firemode"		value="melee" />
+    <param name="select_delayed_grab_3P" value="1" />
+    <param name="attach_to_back" value="1" />
+    <param name="bone_attachment_01" value="stow_primary1" />
+    <param name="bone_attachment_02" value="stow_primary2" />
+    <param name="sprintToFireDelay" value="0.1" GAME="SP" />
+    <param name="sprintToZoomDelay" value="0.2" GAME="SP" />
+    <param name="autoReloadDelay" value="0.5" GAME="SP" />
+    <param name="autoReloadDelay" value="0.25" GAME="MP" />	
+    <param name="runToSprintBlendTime" value="0.3" />
+    <param name="sprintToRunBlendTime" value="0.2" GAME="SP" />
+    <param name="sprintToRunBlendTime" value="0.2" GAME="MP" />
+    <param name="sprintToFireDelay" value="0.05" GAME="MP" />
+		<param name="sprintToZoomDelay" value="0.1" GAME="MP" />
+		<param name="select_override" value="0.8" GAME="MP" />
+		<param name="stat_accuracy" value="7" />
+		<param name="stat_rate_of_fire" value="2" />
+		<param name="stat_mobility" value="3" />
+		<param name="stat_damage" value="7" />	
+		<param name="stat_range" value="5" />	
+		<param name="stat_recoil" value="8" />			
+    <param name="attachment_right" value="left_weapon" />   <!-- these two bones need to be switched, bows are held with the left hand -->
+    <param name="attachment_left" value="weapon" />
+		<param name="tag" value="nanoBow" />
+		<param name="adb" value="nanoBowWeaponAnims.adb" />
+    <param name="has_first_select" value="1" GAME="MP" />		
+    <animPrecache name="NanoBow" >
+      <precache DBAFile="animations/weapons/us/bow/bow.dba" thirdperson="0"/>
+      <precache DBAFile="animations/human/male/weapons/bow/bow_1p.dba" thirdperson="0"/>
+	  <precache DBAFile="animations/human/male/weapons/bow/bow_mp_1p.dba" thirdperson="0" GAME="MP"/>
+	  <precache DBAFile="animations/human/male/weapons/bow/bow_mp_3p.dba" thirdperson="1" GAME="MP"/>
+    </animPrecache>
+    <aimAnims>
+      <param name="base" 		                value="stand_tac_idlepose_bow_shoulder_1p_01" />
+      <param name="idle" 		                value="stand_tac_idle_proc_rifle_shoulder_add_1p_01" />
+      <param name="run" 		                value="stand_tac_run_proc_rifle_shoulder_add_1p_01" />
+      <param name="sprint" 		              value="stand_tac_sprint_bow_fwd_add_1p_01" />
+    </aimAnims>
+    <aimLookParams>
+      <param name="fp_offset"               value="0, 0, 0" />
+      <param name="fp_rot_offset"           value="0, 0, 0" />
+      <param name="look_offset"             value="1.5,1.5" />
+      <param name="horiz_look_rot"          value="0.0,-10.0,0.0" />
+      <param name="vert_look_rot"           value="5.0,0.0,0.0" />
+      <param name="strafe_offset"           value="1.0, 1.0, 0.5" />
+      <param name="side_strafe_rot"         value="0.0, 6.0, 0.0" />
+      <param name="front_strafe_rot"        value="1.75, 0.0, 0.0" />
+      <param name="bump_time"               value="0.7" />
+      <param name="bump_shift"              value="0.03" />
+      <param name="bump_rotation"           value="3.0" />
+    </aimLookParams>
+    <procedualActions>
+      <param name="lower_offset"                    value="0, 0, 0" />
+      <param name="lower_rot_offset"                value="-5.729577951, 2.864788976, 2.864788976" />
+      <param name="lower_transition"                value="0.3" />
+      <param name="cine_offset"                     value="0.121500, 0.048518, 0.046515" />
+      <param name="cine_rot_offset"                 value="-24.394308381, -9.239402813, 54.954788554" />?
+      <param name="cine_transition"                 value="0.65" />
+      <param name="modifiy_menu_offset"             value="0.169099, 0.065822, 0.022674" />
+      <param name="modifiy_menu_rot_offset"         value="20.914131, -30.659067, 25.066063" />
+      <param name="modifiy_menu_left_offset"        value="0.000000, 0.000000, 0.000000" />
+      <param name="modifiy_menu_left_rot_offset"    value="0.000000, 0.000000, 0.000000" />
+    </procedualActions>
+  </params>
+
+  <MovementModifiers	speedScale="1.0" rotationScale="1.0" firingSpeedScale="0.75" firingRotationScale="0.75" GAME="SP">
+    <Ironsight speedScale="0.7" rotationScale="0.33" mouseRotationScale="0.8" firingSpeedScale="0.5" firingRotationScale="0.75"/>
+  </MovementModifiers>
+
+  <MovementModifiers	speedScale="1.0" rotationScale="1.0" firingSpeedScale="0.6" GAME="MP">
+    <Ironsight speedScale="0.4" rotationScale="0.25" mouseRotationScale="0.5" />
+    <Reflexsight speedScale="0.6" rotationScale="0.25" mouseRotationScale="0.5" />
+    <lasersight speedScale="0.75" rotationScale="0.25" mouseRotationScale="0.5" />
+    <Assaultscope speedScale="0.5" rotationScale="0.25" mouseRotationScale="0.5" />
+    <grenadeLauncherZoom speedScale="0.6" rotationScale="0.33" mouseRotationScale="0.5" />
+    <shotgunZoom speedScale="0.6" rotationScale="0.33" mouseRotationScale="0.5" />
+  </MovementModifiers>
+
+  <ReloadMagazineParams magazineAttachment="magazine" magazineEvent="magazine" />
+  <ai_descriptor handler="instant" draw_time="2" burstBulletCountMin="5" burstBulletCountMax="9" burstPauseTimeMin="0.4" burstPauseTimeMax="0.9" singleFireTriggerTime="-1" pressureMultiplier="1" />
+  <ammos>
+    <ammo name="StickyArrow" extra="30" amount="0" minAmmo="0" capacity="30" GAME="SP"/>
+    <ammo name="ElectricArrow" extra="3" amount="0" minAmmo="0" capacity="3" GAME="SP"/>
+    <ammo name="AirBurstArrow" extra="3" amount="0" minAmmo="0" capacity="3" GAME="SP"/>
+		<ammo name="StickyExplosiveArrow" extra="3" amount="0" minAmmo="1" capacity="3" GAME="SP"/>
+    <ammo name="StickyArrowMP" extra="20" amount="0" minAmmo="0" capacity="20" GAME="MP"/>
+	  <ammo name="StickyExplosiveArrow" extra="1" amount="0" minAmmo="0" capacity="2" GAME="MP"/>
+    <ammo name="AirBurstArrow" extra="0" amount="0" minAmmo="0" capacity="2" GAME="MP"/>
+    <ammo name="TaggingArrow" extra="0" amount="0" minAmmo="0" capacity="2" GAME="MP"/>
+  </ammos>
+  <BulletBelt numBullets="1" jointName="arrow" beltRefillReloadFraction="0.45" />
+  <geometry>
+    <firstperson name="Objects/weapons/us/Bow/Bow_fp.cdf" material="Objects/weapons/us/Bow/bow_fp.mtl" angles="0,0,0" position="0,0,0" GAME="SP"/>
+    <firstperson name="Objects/weapons/us/Bow/Bow_fp.cdf" material="Objects/weapons/us/Bow/bow_fp_mp.mtl" angles="0,0,0" position="0,0,0" GAME="MP"/>	
+    <thirdperson name="Objects/weapons/us/bow/bow_tp.cdf" angles="0,0,0"          useStreaming="0" GAME="MP"/>
+    <thirdperson name="Objects/weapons/us/bow/bow_tp_reduced.cgf" angles="0,0,0"  GAME="SP"/>
+    <boneAttachments>
+    </boneAttachments>
+  </geometry>
+   
+  <firemodes>
+    <firemode type="default">
+      <fire>
+        <param name="ammo_type" value="StickyArrow" GAME="SP" />
+        <param name="ammo_type" value="StickyArrowMP" GAME="MP" />	
+        <param name="rate" value="60" GAME="SP"/>
+        <param name="rate" value="90" GAME="MP"/>		
+				<param name="bullet_chamber" value="0" />        
+        <param name="clip_size" value="0" />
+        <param name="max_clips" value="0" />
+        <param name="damage" value="0" GAME="SP"/>		
+        <param name="damage" value="0" GAME="MP"/>		
+        <param name="ai_vs_player_damage" value="250" />
+        <param name="helper_fp" value="weapon_term" />
+        <param name="helper_tp" value="weapon_term" /> 
+        <param name="is_silenced" value="1" />
+        <param name="stealthEnergyDrainMultiplier" value="0.2" GAME="SP" />
+        <param name="stealthEnergyDrainMultiplier" value="0.4" GAME="MP" />
+        <param name="crosshair" 		value="10" GAME="SP" />
+        <param name="crosshair" 		value="10" GAME="MP" />
+        <param name="tag" value="single" />
+      </fire>
+      <proceduralrecoil>
+        <param name="duration"		value="0.1" />
+        <param name="strength"		value="0.07" />
+        <param name="dampStrength"		          value="7.5f" />
+        <param name="fireRecoilTime"		        value="0.05f" />
+        <param name="fireRecoilStrengthFirst"		value="3.0f" />
+        <param name="fireRecoilStrength"		    value="0.5f" />
+        <param name="angleRecoilStrength"		    value="0.4f" />
+        <param name="randomness"		            value="0.1f" />
+      </proceduralrecoil>
+      <recoil>
+        <param name="max_recoil"	value="1" />
+        <param name="attack"            value="0.9" />
+        <param name="decay"             value="1.0" />
+        <param name="end_decay"         value="0.5" GAME="SP"/>
+        <param name="end_decay"         value="0.5" GAME="MP"/>
+        <param name="maxx"              value="2" GAME="SP"/>
+        <param name="maxy"              value="4" GAME="SP"/>
+        <param name="maxx"              value="1.5" GAME="MP"/>
+        <param name="maxy"              value="2" GAME="MP"/>
+        <param name="randomness"        value="0.1" />
+        <hints GAME="SP">
+          <hint x="-0.24" 	y="-0.6" />
+        </hints>
+        <hints GAME="MP">
+          <hint x="-0.24" 	y="-0.6" />
+        </hints>        
+      </recoil>
+      <spread>
+        <param name="min" value="0.5" GAME="SP"/>
+        <param name="max" value="1.25" GAME="SP"/>
+		
+        <param name="min" value="0.1" GAME="MP"/>
+        <param name="max" value="1.0" GAME="MP"/>
+		
+        <param name="attack" value="8.0" GAME="SP" />
+        <param name="attack" value="7.0" GAME="MP" />
+        <param name="decay" value="0.8" />
+        <param name="end_decay" value="0.3" GAME="SP" />
+        <param name="end_decay" value="0.3" GAME="MP" />		
+        <param name="speed_m" value="1.25" GAME="SP"/>
+        <param name="rotation_m" value="0.0" GAME="SP"/>
+        <param name="spread_jump_m" value="1.0" GAME="SP"/>
+        <param name="spread_crouch_m" value="0.75" GAME="SP"/>
+        <param name="speed_m" value="0.1" GAME="MP"/>
+        <param name="spread_jump_m" value="0.5" GAME="MP"/>
+        <param name="spread_slide_m" value="1.0" GAME="MP"/>
+        <param name="spread_crouch_m" value="0.0" GAME="MP"/>		
+        <param name="speed_holdBreathActive_m" value="0.25" GAME="SP"/>
+        <param name="spread_holdBreathActive_m" value="0.5" GAME="SP"/>
+      </spread>
+      <recoil>
+        <param name="angular_impulse" value="1.2" />
+        <param name="back_impulse" value="3.0" />
+      </recoil>
+      <charge>
+        <param name="time" value="1.3" GAME="SP"/>
+        <param name="time" value="1.3" GAME="MP"/>
+      </charge>
+      <bow>
+        <param name="chargeTime" value="1.05" GAME="SP"/>
+        <param name="minChargePercent" value="0.3" GAME="SP"/>
+        <param name="minChargeDamage" value="0.5" GAME="SP"/>
+        <param name="minChargeSpeed" value="1.0" GAME="SP"/>
+        <param name="maxChargeDamage" value="1.0" GAME="SP"/>
+        <param name="maxChargeSpeed" value="2.0" GAME="SP"/> 
+		
+        <param name="minChargePercent" value="0.01" GAME="MP"/>
+        <param name="minChargeDamage" value="0.01" GAME="MP"/>
+        <param name="minChargeSpeed" value="0.05" GAME="MP"/>
+        <param name="maxChargeSpeed" value="1.0" GAME="MP"/>
+        <param name="maxChargeDamage" value="1.0" GAME="MP"/>		
+        <param name="chargeTime" value="1.3" GAME="MP"/>
+        <param name="pinChargeTime" value="1.0" />
+      </bow>
+			<autoAim>
+				<normal>
+					<param name="minDistance" value="1"/>
+					<param name="maxDistance" value="150"/>
+					<param name="outerConeDegs" value="8" GAME="SP" />
+					<param name="innerConeDegs" value="2.5" GAME="SP" />
+					<param name="outerConeDegs" value="12.0" GAME="MP"/>
+					<param name="innerConeDegs" value="6.0" GAME="MP"/>
+				</normal>
+				<zoomed>
+					<param name="minDistance" value="1"/>
+					<param name="maxDistance" value="150"/>
+					<param name="outerConeDegs" value="6" GAME="SP"/>
+					<param name="innerConeDegs" value="2.0" GAME="SP"/>
+					<param name="outerConeDegs" value="10.0" GAME="MP"/>
+					<param name="innerConeDegs" value="4.0" GAME="MP"/>
+				</zoomed>
+			</autoAim>
+		</firemode>
+    <firemode name="Single" type="BowCharge">
+      
+    </firemode>
+
+		<firemode name="StickyExplosiveArrow" type="BowCharge" GAME="MP">
+			<fire>
+				<param name="ammo_type" value="StickyExplosiveArrow" />
+				<param name="damage" value="250" />
+				<param name="autoSwitch" value="1" />
+				<param name="damage_drop_min_damage" value="70" GAME="MP"/>						
+			</fire>
+		</firemode>
+
+    <firemode name="TaggingArrow" type="BowCharge" GAME="MP">
+      <fire>
+        <param name="ammo_type" value="TaggingArrow" />
+        <param name="damage" value="250" />
+        <param name="autoSwitch" value="1" />
+
+      </fire>
+    </firemode>    
+		
+		<firemode name="AirBurstArrow" type="BowCharge" GAME="MP">
+			<fire>
+				<param name="ammo_type" value="AirBurstArrow" />
+				<param name="damage" value="250" />
+				<param name="autoSwitch" value="1" />
+			</fire>
+		</firemode> 
+
+    <firemode name="melee" type="Melee">
+      <melee>
+        <param name="helper" value="collision" />
+        <param name="offset" value="0.35" />
+        <param name="damage" value="300" GAME="SP"/>
+        <param name="damage" value="60" GAME="MP"/>
+        <param name="slide_damage" value="300" GAME="SP"/>
+        <param name="slide_damage" value="60" GAME="MP"/>
+        <param name="damage_AI" value="250" />
+        <param name="impulse" value="100"/>
+        <param name="impulse_actor" value="300" />
+        <param name="impulse_AI_to_Player" value="600"/>
+        <param name="impulse_vehicle" value="400"/>
+        <param name="impulse_up_percentage" value="0.4" GAME="SP"/>
+
+        <param name="range" value="1.8" />
+        <param name="delay" value="0.1" />
+        <param name="aiDelay" value="0.45" />
+        <param name="duration" value="0.3" GAME="SP"/>
+        <param name="duration" value="0.7" GAME="MP"/>
+		<param name="use_melee_weapon_delay" value="0.0" />
+
+        <PowerAttack>
+          <param name="duration" value="0.6" GAME="SP"/>
+          <param name="duration" value="0.7" GAME="MP"/>
+        </PowerAttack>
+
+        <CloseAttack>
+          <param name="delay" value="0.25" />
+          <param name="duration" value="0.87" />
+          <param name="range" value="1.5" />
+          <param name="impulse_AI_to_Player" value="300"/>
+        </CloseAttack>
+        <!--<param name="knockdown_chance" value="20" />-->
+      </melee>
+    </firemode>
+		
+	</firemodes>
+  
+	<zoommodes>
+		<zoommode name="ironsight" type="IronSight">
+      <stereo>
+				<param name="eyeDistance" value="0.002" />
+				<param name="convergenceDistance" value="0.01" />
+      </stereo>
+      <aimLookParams>
+        <param name="fp_offset"               value="-0.048577, -0.043935, 0.200691" />
+        <param name="fp_rot_offset"           value="9.527406, -75.419044, -14.408937" />
+        <param name="zoom_transition_angle"   value="28.647889757" />
+        <param name="look_offset"             value="0.5,0.25" />
+        <param name="horiz_look_rot"          value="0.0,-1.0,-1.5" />
+        <param name="vert_look_rot"           value="0.1,0.0,0.0" />
+        <param name="strafe_offset"           value="0.2, 0.2, 0.1" />
+        <param name="side_strafe_rot"         value="0.0, 0.5, 0.0" />
+        <param name="front_strafe_rot"        value="0.5, 0.0, 0.0" />
+        <param name="idle_speed"              value="0.5" />
+        <param name="idle_magnitude"          value="0.2" />
+        <param name="run_speed"               value="0.75" />
+        <param name="run_magnitude"           value="0.2" />
+      </aimLookParams>
+			<zoom>
+				<param name="suffix" value="iron" />
+				<param name="suffixAG" value="_iron" />
+        <param name="dof" value="1" />
+        <param name="dof_mask" value="textures/weapons/ironzoom_blurmask.dds" />
+        <param name="dof_focusMin" value="1.0" />
+        <param name="dof_focusMax" value="100.0" />
+        <param name="dof_focusLimit" value="300.0" />
+        <param name="dof_shoulderMinZ" value="0.15" />
+        <param name="dof_shoulderMinZScale" value="4.0" />
+        <param name="dof_minZ" value="0.25" />
+				<param name="dof_minZScale" value="0.6" />
+				<param name="hide_crosshair" value="0" GAME="MP"/>		
+        <param name="zoom_in_time" value="0.3" GAME="SP"/>
+        <param name="zoom_out_time" value="0.3" GAME="SP"/>
+				<param name="zoom_out_delay" value="0.15" GAME="SP"/>
+        <param name="zoom_in_time" value="0.3" GAME="MP"/>
+        <param name="zoom_out_time" value="0.3" GAME="MP"/>
+				<param name="zoom_out_delay" value="0.1" GAME="MP"/>		
+        <param name="scope_mode" value="1" />
+        <param name="scope_nearFov" value="45" />
+				<param name="armor_bonus_zoom" value="1" GAME="SP"/>
+				<param name="muzzle_flash_scale" value="0.55"/>
+        <param name="shoulderMovementAnimFactor" value="0.8" GAME="SP"/>
+        <param name="ironsightMovementAnimFactor" value="0.7" GAME="SP"/>
+        <param name="hide_crosshair" value="0" />
+				<stages>
+					<stage value="3" GAME="SP" />
+					<stage value="2.5" GAME="MP" />
+				</stages>
+			</zoom>
+	
+      <zoomSway>
+				<param name="maxX" value="0.003" GAME="SP"/>
+				<param name="maxY" value="0.004" GAME="SP"/>	  
+        <param name="maxX" value="0.003" GAME="MP"/>
+        <param name="maxY" value="0.0035" GAME="MP" />
+				<param name="stabilizeTime" value="1.5" GAME="SP" />
+				<param name="stabilizeTime" value="1.5" GAME="MP" />
+				<param name="minScale" value="0.5" GAME="SP" />
+				<param name="minScale" value="0.1" GAME="MP" />
+        <param name="crouchScale" value="0.25"/>
+        <param name="proneScale" value="0.5"/>
+        <param name="holdBreathScale" value="0.1" GAME="SP"/>
+        <param name="holdBreathTime" value="0.5" GAME="SP"/>	        
+       </zoomSway>
+	  
+			<spreadMod>
+				<param name="max_mod" value="0.1" GAME="SP"/>
+				<param name="max_mod" value="0.1" GAME="MP"/>
+				<param name="first_attack_mod" value="1.0" GAME="SP"/>
+				<param name="attack_mod" value="1.2" GAME="SP"/>
+				<param name="attack_mod" value="0.03" GAME="MP"/>
+				<param name="decay_mod" value="1.0" GAME="SP"/>
+				<param name="decay_mod" value="1.0" GAME="MP"/>
+				<param name="end_decay_mod" value="1.0" GAME="MP" />
+				<param name="speed_m_mod" value="0.25" GAME="SP"/>
+				<param name="speed_m_mod" value="0.20" GAME="MP"/>
+				<param name="min_mod" value="0.001" GAME="SP"/>
+				<param name="min_mod" value="0.001" GAME="MP"/>
+				<param name="rotation_m_mod" value="0.5" GAME="SP"/>
+				<param name="rotation_m_mod" value="0.0" GAME="MP"/>
+				<param name="spread_crouch_m_mod" value="0.75" GAME="SP"/>
+				<param name="spread_crouch_m_mod" value="0.75" GAME="MP"/>
+				<param name="spread_prone_m_mod" value="0.5" GAME="SP"/>
+				<param name="spread_jump_m_mod" value="1.0" />
+        <param name="spread_slide_m_mod" value="1.0"/>
+        <param name="spread_holdBreathActive_m_mod" value="1.0" GAME="MP" />
+				<param name="spread_holdBreathActive_m_mod" value="0.75" GAME="SP" />
+				<param name="speed_holdBreathActive_m_mod" value="1.0" GAME="MP"/>
+			</spreadMod>
+			<recoilMod>
+				<param name="max_recoil_mod" value="1.0" />
+				<param name="first_attack_mod" value="0.3" GAME="SP"/>
+				<param name="first_attack_mod" value="0.65" GAME="MP"/>
+				<param name="attack_mod" value="0.3" GAME="SP"/>
+				<param name="attack_mod" value="0.55" GAME="MP"/>
+				<param name="decay_mod" value="1.0" GAME="SP"/>
+				<param name="decay_mod" value="2.0" GAME="MP"/>
+				<param name="end_decay_mod" value="1.0" GAME="SP"/>
+				<param name="end_decay_mod" value="1.1" GAME="MP"/>
+				<param name="impulse_mod" value="1.0" />
+				<param name="maxx_mod" value="1.25" GAME="SP"/>
+				<param name="maxx_mod" value="2.5" GAME="MP"/>
+				<param name="maxy_mod" value="1.75" GAME="SP"/>
+				<param name="maxy_mod" value="1.4" GAME="MP"/>
+				<param name="randomness_mod" 	value="1.0" GAME="SP"/>
+				<param name="angular_impulse_mod" value="1.0" />
+				<param name="back_impulse_mod" value="1.0" />
+				<param name="recoil_crouch_m_mod" value="0.75" GAME="SP"/>
+				<param name="recoil_crouch_m_mod" value="1.0" GAME="MP"/>
+				<param name="recoil_prone_m_mod" value="1.0" GAME="SP"/>
+				<param name="recoil_jump_m_mod" value="1.0" />
+				<param name="recoil_holdBreathActive_m_mod" value="1.25" GAME="SP" />
+				<param name="recoil_holdBreathActive_m_mod" value="1.0" GAME="MP" />
+			</recoilMod>
+		</zoommode>
+	</zoommodes>
+
+
+  <accessories>
+    <defaultAccessoires>
+      <accessory name="StickArrowMode" />
+      <accessory name="ExplosiveArrowMode" />
+      <accessory name="ElectricArrowMode" GAME="SP"/>
+      <accessory name="AirBurstArrowMode" GAME="SP"/>
+      <accessory name="TaggingArrowMode" GAME="SP"/>
+      <accessory name="StringMedium" />
+      <accessory name="StringLoose" GAME="SP"/>
+      <accessory name="StringStrong" GAME="SP"/>
+    </defaultAccessoires>
+    
+    <initialsetup>
+      <accessory name="StickArrowMode" />
+      <accessory name="StringMedium" />
+    </initialsetup>
+
+    <accessory name="StickArrowMode" category="ammo" exclusive="1" default="1" >
+      <attach helper="attachment_ammo" />
+      <detach />
+      <show helper="arrows_normal" />
+      <params>
+        <firemodes>
+          <firemode type="default">
+            <fire>
+              <param name="damage" value="1600" GAME="SP"/>
+              <param name="damage" value="150" GAME="MP"/>
+        			<param name="point_blank_amount" value="2" GAME="SP"/>
+        			<param name="point_blank_distance" value="1" GAME="SP"/>
+       				<param name="point_blank_falloff_distance" value="2" GAME="SP"/>        			              			  
+              <param name="ammo_type" value="StickyArrowMP" />
+            </fire>
+            <bow>
+              <param name="impactDamage" value="1" />
+            </bow>
+          </firemode>
+        </firemodes>
+      </params>
+    </accessory>
+
+    <accessory name="ExplosiveArrowMode" category="ammo" exclusive="1" beginsDetached="1" >
+      <attach helper="attachment_ammo" />
+      <detach />
+      <show helper="arrows_explosive" />
+      <params>
+        <firemodes>
+          <firemode type="default">
+            <fire>
+              <param name="damage" value="2500" GAME="SP"/>
+              <param name="damage" value="300" GAME="MP"/>
+              <param name="ammo_type" value="StickyExplosiveArrow" GAME="SP"/>
+              <param name="ammo_type" value="StickyExplosiveArrow" GAME="MP"/>
+              <param name="hit_type" value="stickyExplosive" GAME="SP"/>
+           </fire>              
+          </firemode>
+        </firemodes>
+      </params>
+      <stats_changes stat_damage="2" GAME="SP"/>
+      <stats_changes stat_damage="1" GAME="MP"/>	  
+    </accessory>
+
+    <accessory name="ElectricArrowMode" category="ammo" exclusive="1" GAME="SP">
+      <attach helper="attachment_ammo" />
+      <detach />
+      <show helper="arrows_electro" />
+      <params>
+        <firemodes>
+          <firemode type="default">
+            <fire>
+				<param name="damage" value="1600" GAME="SP"/>
+				<param name="damage" value="150" GAME="MP"/>
+				<param name="ammo_type" value="ElectricArrow" />
+				<param name="hit_type" value="electricity"/>
+            </fire>
+          </firemode>
+        </firemodes>
+      </params>
+      <stats_changes stat_damage="1" GAME="SP"/> 
+      <stats_changes stat_range="1" GAME="MP"/>	  
+    </accessory>
+
+    <accessory name="AirBurstArrowMode" category="ammo" exclusive="1" GAME="SP" >
+      <attach helper="attachment_ammo" />
+      <detach />
+      <show helper="arrows_airburst" />
+      <params>
+        <firemodes>
+          <firemode type="default">
+            <fire>
+				<param name="damage" value="1600" GAME="SP"/>
+				<param name="damage" value="70" GAME="MP"/>
+				<param name="ammo_type" value="AirBurstArrow" />
+				<param name="hit_type" value="explosion" GAME="SP"/>
+           </fire>
+          </firemode>
+        </firemodes>
+      </params>
+      <stats_changes stat_accuracy="1" stat_damage="-1" stat_mobility="1" GAME="SP"/>
+      <stats_changes stat_range="1" stat_damage="-1" GAME="MP"/>	  
+    </accessory>
+
+    <accessory name="TaggingArrowMode" category="ammo" exclusive="1" GAME="SP" >
+      <attach helper="attachment_ammo" />
+      <detach />
+      <show helper="arrows_electro" />
+      <params>
+        <firemodes>
+          <firemode type="default">
+            <fire>
+              <param name="damage" value="70"/>
+              <param name="ammo_type" value="TaggingArrow" />
+            </fire>
+          </firemode>
+        </firemodes>
+      </params>
+      <stats_changes stat_range="1" stat_damage="-1"/>
+    </accessory>
+
+    <accessory name="StringMedium" category="barrel" exclusive="1" default="1" GAME="SP" >
+      <attach helper="attachment_barrel" />
+      <detach />
+    </accessory>
+
+    <accessory name="StringMedium" category="barrel" exclusive="1" default="1" selectable="0" GAME="MP" >
+      <attach helper="attachment_barrel" />
+      <detach />
+    </accessory>	
+
+    <accessory name="StringLoose" category="barrel" exclusive="1" GAME="SP">
+      <attach helper="attachment_barrel" />
+      <detach />
+      <params>
+        <firemodes>
+          <firemode type="default">
+            <fire>
+              <param name="rate" value="60" GAME="SP"/>
+        			<param name="stealthEnergyDrainMultiplier" value="0.2" GAME="SP"/>              
+            </fire>
+            <bow>
+              <param name="chargeTime" value="0.5" />
+              <param name="minChargePercent" value="0.4" />
+              <param name="minChargeDamage" value="0.33" />
+              <param name="minChargeSpeed" value="1.0" />
+              <param name="maxChargeDamage" value="0.66" />
+              <param name="maxChargeSpeed" value="2.0" />
+              <param name="stringStrength" value="0.0" />
+			  <param name="pinChargeTime" value="1.0" />				  
+            </bow> 
+          </firemode>
+        </firemodes>
+      </params>
+      <stats_changes stat_accuracy="-1" stat_range="-1" stat_damage="-1" stat_rate_of_fire="1" stat_mobility="1" GAME="SP"/>       
+    </accessory>
+
+    <accessory name="StringStrong" category="barrel" exclusive="1" GAME="SP" >
+      <attach helper="attachment_barrel" />
+      <detach />
+      <params>
+        <firemodes>
+          <firemode type="default">
+            <fire>
+              <param name="rate" value="60" GAME="SP"/>
+        			<param name="stealthEnergyDrainMultiplier" value="0.2" GAME="SP"/>               
+            </fire>
+            <bow>
+              <param name="chargeTime" value="2.0" />
+              <param name="minChargePercent" value="0.3" />
+              <param name="minChargeDamage" value="1.0" />
+              <param name="minChargeSpeed" value="1.0" />
+              <param name="maxChargeDamage" value="1.5" />
+              <param name="maxChargeSpeed" value="2.5" />
+              <param name="stringStrength" value="2.0" />
+			  <param name="pinChargeTime" value="0.1" />			  
+            </bow>                
+          </firemode>
+        </firemodes>
+      </params>
+      <stats_changes stat_accuracy="1" stat_range="1" stat_damage="1" stat_rate_of_fire="-1" stat_mobility="-1" GAME="SP"/>       
+    </accessory>
+
+	</accessories>
+</item>

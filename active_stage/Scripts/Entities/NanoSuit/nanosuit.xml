@@ -624,7 +624,7 @@
       r_CloakRefractionFadeMinValue="0.2"
       r_CloakRefractionFadeMinDistSq="1.0"
       r_CloakRefractionFadeMaxDistSq="25.0"
-      r_ThermalVisionViewDistance="150.0"
+      r_ThermalVisionViewDistance="300.0"
       r_cloakHighlightStrength="100.0"
       r_CloakInterferenceSparksAlpha="1000.0"
       r_CloakSparksAlpha="1.0"
@@ -647,7 +647,7 @@
         r_CloakRefractionFadeMaxDistSq="2025.0"
         r_CloakRenderInThermalVision="1"
         r_CloakHeatScale="0.1"
-        r_ThermalVisionViewDistance="80"
+        r_ThermalVisionViewDistance="160"
         r_ArmourPulseSpeedMultiplier="0.5"
         r_MaxSuitPulseSpeedMultiplier="8"
               
@@ -674,7 +674,7 @@
        r_CloakRefractionFadeMaxDistSq="2025.0"
        r_CloakRenderInThermalVision="1"
        r_CloakHeatScale="0.1"
-       r_ThermalVisionViewDistance="80"
+       r_ThermalVisionViewDistance="160"
        r_ArmourPulseSpeedMultiplier="0.5"
        r_MaxSuitPulseSpeedMultiplier="8"
               

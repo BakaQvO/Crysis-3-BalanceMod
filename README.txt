@@ -10,8 +10,12 @@ Effects:
 - In single-player, entering cloak marks the player as invisible to AI and repeatedly sends target-loss signals to enemies that still have the player as their attention target.
 - Cloaked players are rejected by shared AI attention-target validation, human and Alien Grunt close-range cloak detection distances are set to 0, and Pinger radar/big ping/focus ping no longer reacquire or hit cloaked players.
 - Single-player collectible story items and nanosuit upgrades are forced into the tactical HUD path so they can be highlighted/scanned without building a separate map marker system.
+- Visor thermal-vision view distance is doubled.
+- Visor scan-distance candidate CVars are expanded at player reset: interest-point and look-at distances use x2, while g_highlightingMaxDistanceToHighlightSquared uses x4 because it stores squared distance.
+- The single-player bow's regular StickyArrow ammo cap is raised from 9 to 30 and excluded from the infinite-ammo guard so it consumes and refills normally.
+- Chinese nanosuit upgrade status text is restored through a separate language patch pak so the upgrade page can show condition/progress text beyond Heavy Armor.
 
-Files in this pak:
+Files in the gameplay pak:
 - Scripts/Entities/actor/BasicActor.lua
 - Scripts/Entities/actor/player.lua
 - Scripts/Entities/NanoSuit/nanosuit.xml
@@ -21,11 +25,22 @@ Files in this pak:
 - Scripts/Entities/AI/NewAliens/AlienPinger_x.lua
 - Scripts/Entities/Others/InteractiveEntity.lua
 - Scripts/Entities/Others/NanosuitUpgrade.lua
+- Scripts/Entities/Items/Crysis2/Weapons/Humans/NanoBow.xml
+- Scripts/Entities/Items/Crysis2/Weapons/Humans/NanoBowMPPred.xml
 - Libs/Libs/EntityArchetypes/Pickups.xml
+- localization/ChineseT1/text_ui_messages.xml
+- localization/ChineseT/text_ui_messages.xml
+
+Files in the Chinese language patch pak:
+- text_ui_messages.xml
 
 Mod folder layout:
 - patch3_c3balance.pak is the built pak copy for this mod.
+- patch_localization_chineset2.pak is the built Chinese language patch pak copy for this mod.
 - active_stage contains the source files used for the currently built pak.
+- localization_stage/ChineseT2 contains the source file used for the Chinese language patch pak.
+- build_patch3.bat rebuilds patch3_c3balance.pak from active_stage, rebuilds patch_localization_chineset2.pak from localization_stage/ChineseT2, and installs both live paks as hardlinks.
+- build_patch3.ps1 contains the actual pak creation and hardlink verification logic used by build_patch3.bat.
 - legacy_temp/stage_v2 contains the source files used for the previous built pak.
 - legacy_temp/stage and legacy_temp/stage_min are older intermediate work folders kept for reference only.
 - abandoned_C3CloakTargetLossMod_draft is an unused draft kept only as history; the cloak feature is merged into this mod.
@@ -33,8 +48,12 @@ Mod folder layout:
 
 Install:
 - Link this mod's patch3_c3balance.pak into the game's Patch folder as Patch/patch3.pak.
+- Link this mod's patch_localization_chineset2.pak into the game's Patch/localization folder as Patch/localization/ChineseT2.pak.
 - The game loads patch paks by the numeric pattern Patch/patch%d.pak, so Patch/patch3_c3balance.pak is not a valid install name.
+- The game loads Chinese language patches after Localization/ChineseT.pak by applying Patch/localization/ChineseT1.pak, then Patch/localization/ChineseT2.pak if present.
+- Run build_patch3.bat after editing active_stage or localization_stage/ChineseT2 to rebuild and reinstall the hardlinked live paks.
 - Remove or rename Patch/patch3.pak to disable the mod.
+- Remove or rename Patch/localization/ChineseT2.pak to disable the Chinese status-text language patch.
 
 Notes:
 - Original game pak files are not modified.
