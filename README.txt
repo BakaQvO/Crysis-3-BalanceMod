@@ -13,7 +13,7 @@ Effects:
 - Visor thermal-vision view distance is doubled.
 - Visor scan-distance candidate CVars are expanded at player reset: interest-point and look-at distances use x2, while g_highlightingMaxDistanceToHighlightSquared uses x4 because it stores squared distance.
 - The single-player bow's regular StickyArrow ammo cap is raised from 9 to 30 and excluded from the infinite-ammo guard so it consumes and refills normally.
-- Chinese nanosuit upgrade status localization is expanded through a separate language patch pak, covering both module ids and the underlying SP perk ids used by the engine's @perk_%scondition lookup.
+- Single-player Traditional Chinese (ChineseT) nanosuit upgrade status text is fixed through a separate language patch pak. In the stock ChineseT translation, 15 of the 16 module perk_<id>_namesp strings have a blank line (a double "\n") right before the "狀態：" status line, which the engine's status renderer drops -- leaving the status/progress blank for every module except HeavyArmor (the only module authored with a single "\n"). The patch collapses that blank line to a single newline for the other 15 modules so all of them show their condition/progress.
 
 Files in the gameplay pak:
 - Scripts/Entities/actor/BasicActor.lua
@@ -59,4 +59,4 @@ Notes:
 - Original game pak files are not modified.
 - Multiplayer GAME="MP" rows are intentionally left unchanged.
 - Another mod that replaces Scripts/Entities/actor/player.lua must be based on this modded player.lua if both mods should be active at the same time.
-- The nanosuit status column is filled by the engine through the UI's addPerkStat path. The language patch fixes missing/incorrect lookup text, but modules for which the engine does not create a status/progress object may still remain blank without a GFX or executable-level change.
+- The nanosuit upgrade status line is embedded in each module's perk_<id>_namesp localized string (after the MAXIMUM block) and filled with live %1/%2 progress by the engine UI builder; the visible text comes from namesp, not from a separate @perk_%scondition key. The blank status was purely a ChineseT text-formatting issue -- the extra blank line before "狀態：" -- which is present in the stock Localization/ChineseT.pak and was not introduced by this mod. The English text is unaffected because it uses a single newline throughout. The module-id/perk-id condition alias rows added by an earlier attempt are harmless and left in place.

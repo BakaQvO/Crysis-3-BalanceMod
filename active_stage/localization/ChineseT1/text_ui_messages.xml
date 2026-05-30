@@ -25905,7 +25905,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">\n * 33% Longer Sprint Time \n * Unlock Hydro Thrusters \n   (Faster Underwater Speed) \n \n &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;MAXIMUM:&lt;/font&gt; \n * Increase to 50% \n \n Condition: \n Sprint %1/%2 Meters\n Swim %3/%4 Meters</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *疾奔時間加長33%\n *解開水中推進器\n （水中速度提升）\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至50%\n \n 狀態：\n 疾奔%1/%2公尺\n 游泳%3/%4公尺</Data><NamedCell
+    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *疾奔時間加長33%\n *解開水中推進器\n （水中速度提升）\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至50%\n 狀態：\n 疾奔%1/%2公尺\n 游泳%3/%4公尺</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Please let 5 spaces before MAXIMUM:</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -25956,7 +25956,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">\n * 25% Stronger Power Kick \n * Unlock Air Stomp \n   (Mid-air Smash Attack) \n \n &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;MAXIMUM:&lt;/font&gt; \n * Increase Range by 25% \n \n Condition: \n %1/%2 Power Kick Kills\n %3/%4 Air Stomp Kills\n</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *威力踢腿力道提升25%\n *解開凌空重踏\n （半空粉碎攻擊）\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *範圍提升25%\n \n 狀態：\n %1/%2威力踢腿擊殺\n %3/%4凌空重踏擊殺\n</Data><NamedCell
+    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *威力踢腿力道提升25%\n *解開凌空重踏\n （半空粉碎攻擊）\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *範圍提升25%\n 狀態：\n %1/%2威力踢腿擊殺\n %3/%4凌空重踏擊殺\n</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Please let 5 spaces before MAXIMUM:</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -26007,7 +26007,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">\n * 50% Faster Cloaking \n * 50% Scanner Resistance \n * Highlight Enemy Footprints \n \n &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;MAXIMUM:&lt;/font&gt; \n * Increase to 75% \n \n Condition: \n Remain Cloaked near Enemies\n for %1/%2 Seconds</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *匿蹤時間加快50%\n *掃描抵禦50%\n *標記敵人足跡\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至75%\n \n 狀態：\n 在敵人附近維持匿蹤\n 持續%1/%2秒</Data><NamedCell
+    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *匿蹤時間加快50%\n *掃描抵禦50%\n *標記敵人足跡\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至75%\n 狀態：\n 在敵人附近維持匿蹤\n 持續%1/%2秒</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Please let 5 spaces before MAXIMUM:</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -26058,7 +26058,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">\n * Radar/Zoom Upgrade \n * Unlock Hack Assistance \n * Enemy Sound Boost \n \n &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;MAXIMUM:&lt;/font&gt; \n * Double Effectiveness \n \n Condition: \n Tag %1/%2 Targets</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *雷達/縮放升級\n *解鎖入侵協助\n *敵人聲音放大\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *雙重效率\n \n 狀態：\n 標記%1/%2目標</Data><NamedCell
+    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *雷達/縮放升級\n *解鎖入侵協助\n *敵人聲音放大\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *雙重效率\n 狀態：\n 標記%1/%2目標</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Please let 5 spaces before MAXIMUM:</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -26109,7 +26109,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">\n * 50% Bullet Impact Dampening \n * 50% Faster Knock-Back Recovery \n \n \n &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;MAXIMUM:&lt;/font&gt; \n * Increase to 75% \n \n Condition: \n Absorb %1/%2 Damage</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *子彈衝擊緩衝50%\n *提升50%受創恢復速度\n \n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至75%\n \n 狀態：\n 吸收%1/%2損害</Data><NamedCell
+    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *子彈衝擊緩衝50%\n *提升50%受創恢復速度\n \n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至75%\n 狀態：\n 吸收%1/%2損害</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Please let 5 spaces before MAXIMUM:</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -26160,7 +26160,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">\n * Show Enemy Tracer Fire \n * Highlight Hazards \n * Highlight Explosives \n \n &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;MAXIMUM:&lt;/font&gt; \n * 50% Highlight Range Increase \n \n Condition: \n Tag %1/%2 Targets</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *顯示敵人曳光彈火花\n *標記危險\n *標記炸藥\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *標記範圍提升50%\n \n 狀態：\n 標記%1/%2目標</Data><NamedCell
+    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *顯示敵人曳光彈火花\n *標記危險\n *標記炸藥\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *標記範圍提升50%\n 狀態：\n 標記%1/%2目標</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Please let 5 spaces before MAXIMUM:</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -26211,7 +26211,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">\n * 20% EMP Protection \n * 20% Faster Energy Recharge \n * 20% Less HUD Interference \n \n &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;MAXIMUM:&lt;/font&gt; \n * Increase to 33% \n \n Condition: \n Regenerate %1/%2 Energy</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">\n * EMP保護20% \n * 充電速度提升20% \n * 抬頭顯示干擾減少20% \n \n\n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n * 提升至33% \n \n 狀態： \n 恢復%1/%2能量</Data><NamedCell
+    <Cell ss:StyleID="s74"><Data ss:Type="String">\n * EMP保護20% \n * 充電速度提升20% \n * 抬頭顯示干擾減少20% \n \n\n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n * 提升至33% \n 狀態： \n 恢復%1/%2能量</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Please let 5 spaces before MAXIMUM:</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -26262,7 +26262,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">\n * 20% Faster Weapon Reloads \n * 20% Faster Aim Down Sights \n * 20% Faster Weapon Select \n \n &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;MAXIMUM:&lt;/font&gt; \n * Increase to 33% \n \n Condition: \n Kill %1/%2 Enemies within 1 Second\n after Aiming Down Sights</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *填補彈藥速度提升20%\n *瞄準速度提升20%\n *選擇武器速度提升20%\n \n\n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至33%\n \n 狀態：\n 1秒內擊殺%1/%2敵人\n 瞄準後進行</Data><NamedCell
+    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *填補彈藥速度提升20%\n *瞄準速度提升20%\n *選擇武器速度提升20%\n \n\n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至33%\n 狀態：\n 1秒內擊殺%1/%2敵人\n 瞄準後進行</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Please let 5 spaces before MAXIMUM:</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -26313,7 +26313,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">\n * 20% Faster Health Regeneration \n * 20% Critical Health Boost  \n \n \n &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;MAXIMUM:&lt;/font&gt; \n * Increase to 33% \n \n Condition: \n Survive %1/%2 Near-Death Moments\n Regenerate %3/%4 Health</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *生命恢復速度提升20%\n *危急生命恢復力增加20%\n \n\n\n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至33%\n \n 狀態：\n 活過%1/%2次命危時刻\n 恢復%3/%4生命</Data><NamedCell
+    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *生命恢復速度提升20%\n *危急生命恢復力增加20%\n \n\n\n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至33%\n 狀態：\n 活過%1/%2次命危時刻\n 恢復%3/%4生命</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Please let 5 spaces before MAXIMUM:</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -26364,7 +26364,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">\n * 50% Faster Semi-Automatic Fire \n * Unlock Weapon Stabilization \n   (No Sway when Aiming Down Sights) \n \n &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;MAXIMUM:&lt;/font&gt; \n * Increase to 75% \n \n Condition: \n Kill %1/%2 Enemies</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *半自動武器發射加快50%\n *解開武器穩定性\n （瞄準發射時不會搖晃）\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至75% \n \n 狀態：\n 擊殺%1/%2敵人</Data><NamedCell
+    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *半自動武器發射加快50%\n *解開武器穩定性\n （瞄準發射時不會搖晃）\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至75% \n 狀態：\n 擊殺%1/%2敵人</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Please let 5 spaces before MAXIMUM:</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -26415,7 +26415,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">\n * 20% Longer Cloak Time \n * Unlock Stealth Movement \n   (Walk Without Sound) \n \n &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;MAXIMUM:&lt;/font&gt; \n * Increase to 33% \n \n Condition: \n Remain Cloaked near Enemies\n for %1/%2 Seconds</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *匿蹤時間增長20%\n *解鎖匿蹤行動\n （走路無聲）\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至33%\n \n 狀態：\n 在敵人附近維持匿蹤\n 持續%1/%2秒</Data><NamedCell
+    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *匿蹤時間增長20%\n *解鎖匿蹤行動\n （走路無聲）\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至33%\n 狀態：\n 在敵人附近維持匿蹤\n 持續%1/%2秒</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Please let 5 spaces before MAXIMUM:</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -26466,7 +26466,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">\n * 25% Stronger Throwing \n * Unlock Power Melee \n   (More Powerful Attacks) \n \n &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;MAXIMUM:&lt;/font&gt; \n * Increase to 50% \n \n Condition: \n Grab %1/%2 Enemies\n Power Melee %3/%4 Enemies</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *投擲力道提升25%\n *解開猛烈肉搏\n （更多強烈攻擊） \n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至50%\n \n 狀態：\n 抓%1/%2敵軍\n 猛烈肉搏%3/%4敵軍</Data><NamedCell
+    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *投擲力道提升25%\n *解開猛烈肉搏\n （更多強烈攻擊） \n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至50%\n 狀態：\n 抓%1/%2敵軍\n 猛烈肉搏%3/%4敵軍</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Please let 5 spaces before MAXIMUM:</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -26517,7 +26517,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">\n * 25% Faster Armor Movement \n * 25% Extra Melee Protection \n * 50% Less Armor Protection \n \n &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;MAXIMUM:&lt;/font&gt; \n * Increase to 50% \n \n Condition: \n Absorb %1/%2 Damage</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *裝甲行動速度提升25%\n *肉搏保護額外增加25%\n *裝甲保護減少50%\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至50%\n \n 狀態：\n 吸收%1/%2損害</Data><NamedCell
+    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *裝甲行動速度提升25%\n *肉搏保護額外增加25%\n *裝甲保護減少50%\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至50%\n 狀態：\n 吸收%1/%2損害</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Please let 5 spaces before MAXIMUM:</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -26769,7 +26769,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">\n * 50% Faster Ledge Grabs \n * 50% Less Energy for Power Jumps \n * Unlock Aiming for Power Jumps \n \n &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;MAXIMUM:&lt;/font&gt; \n * Increase to 75% \n \n Condition: \n Perform %1/%2 Power Jumps\n Perform %3/%4 Ledge Grabs</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *攀附邊緣速度提升50%\n *威力跳躍能量減少50%\n *解開威力跳躍瞄準能力\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至75%\n \n 狀態：\n 進行%1/%2威力跳躍\n 攀附%3/%4邊緣</Data><NamedCell
+    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *攀附邊緣速度提升50%\n *威力跳躍能量減少50%\n *解開威力跳躍瞄準能力\n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至75%\n 狀態：\n 進行%1/%2威力跳躍\n 攀附%3/%4邊緣</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -26819,7 +26819,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">\n * 25% Faster Stealth Kills \n * Full Cloak During Stealth Kills  \n \n \n &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;MAXIMUM:&lt;/font&gt; \n * Increase to 50% \n \n Condition: \n Perform %1/%2 Stealth Kills</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *隱匿擊殺加快25%\n *隱匿擊殺時維持完全匿蹤\n \n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至50%\n \n 狀態：\n 執行%1/%2次隱匿擊殺</Data><NamedCell
+    <Cell ss:StyleID="s74"><Data ss:Type="String">\n *隱匿擊殺加快25%\n *隱匿擊殺時維持完全匿蹤\n \n \n \n &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#FFFFFF&quot;&gt;最大值：&lt;/font&gt; \n *提升至50%\n 狀態：\n 執行%1/%2次隱匿擊殺</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s74"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
