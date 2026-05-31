@@ -1,0 +1,190 @@
+<PerkDistributionSP>
+
+  <!-- Note: 
+       Maximum number of modules: 16
+       Maximum number of perks per module: 2
+       Maximum UsageStat events per module: 2
+  -->
+  <Modules>   
+		<Module id="SuperStealth" class="Stealth" cost="1" >
+			<Perk id="Tracker" />
+      <Perk id="Phantom" />
+      <MaximumMode>
+        <Event type="UsageStat" stat="EIPS_CloakedNearEnemyWithPhantom" value="100" />   <!-- In seconds; near means <4m -->
+      </MaximumMode>
+      <Stats>
+      	<Stat type="Stealth" value="1" />
+      </Stats>
+    </Module>
+    <Module id="Endurance" class="Speed" cost="2" >
+      <Perk id="Endurance" />
+      <MaximumMode>
+        <Event type="UsageStat" stat="EFPS_DistanceSprintWithEndurance" value="3000" /> <!-- In meters -->
+        <Event type="UsageStat" stat="EFPS_DistanceSwumWithEndurance" value="500" />   <!-- In meters -->
+      </MaximumMode>
+      <Stats>
+      	<Stat type="Speed" value="1" />
+      </Stats>
+    </Module>
+    <Module id="BruteForce" class="Strength" cost="3" >
+			<Perk id="Stamp" />
+      <Perk id="Kick" />
+      <MaximumMode>
+        <Event type="UsageStat" stat="EIPS_BruteForceKickKills" value="1" />
+        <Event type="UsageStat" stat="EMPS_KillsByDamageType:stamp" value="15" />
+      </MaximumMode>
+      <Stats>
+      	<Stat type="Strength" value="1" />
+      </Stats>
+		</Module>       
+		<Module id="SensorPackage" class="Visor" cost="1" >
+			<Perk id="SensorPackage" />
+      <MaximumMode>
+        <Event type="UsageStat" stat="EIPS_TaggedEntitiesWithSensorPackage" value="25" />
+      </MaximumMode>
+      <Stats>
+      	<Stat type="Visor" value="1" />
+      </Stats>
+    </Module>
+		<Module id="BulletProof" class="Armor" cost="1" >
+			<Perk id="Deflection" />
+      <MaximumMode>
+        <Event type="UsageStat" stat="EIPS_Deflection_DamageAbsorbed" value="150000" />
+      </MaximumMode>
+      <Stats>
+      	<Stat type="Armor" value="1" />
+      </Stats>
+    </Module>    
+		<Module id="ReflexBoost" class="Speed" cost="2" >
+			<Perk id="WeaponPro" />
+      <MaximumMode>
+        <Event type="UsageStat" stat="EIPS_WeaponProKillsZoomedIn" value="50" />
+      </MaximumMode>
+      <Stats>
+      	<Stat type="Speed" value="1" />
+      </Stats>
+    </Module>    
+		<Module id="EnergyUpgrade" class="Visor" cost="2" >
+			<Perk id="EnergyUpgrade" />
+      <MaximumMode>
+        <Event type="UsageStat" stat="EFPS_EnergyRegeneratedWithEnergyUpgrade" value="5000" />
+      </MaximumMode>
+      <Stats>
+      	<Stat type="Visor" value="1" />
+      </Stats>
+		</Module>
+		<Module id="EODPackage" class="Visor" cost="1" >
+			<Perk id="ThreatAwareness" />
+      <MaximumMode>
+        <Event type="UsageStat" stat="EIPS_TaggedEntitiesWithThreatAwareness" value="20" />
+      </MaximumMode>
+      <Stats>
+      	<Stat type="Visor" value="1" />
+      </Stats>
+    </Module>
+    <Module id="ExtendedCloak" class="Stealth" cost="3" >
+      <Perk id="SilentFeet" />
+      <MaximumMode>
+        <Event type="UsageStat" stat="EIPS_CloakedNearEnemyWithSilentFeet" value="100" /> <!-- In seconds -->
+      </MaximumMode>
+      <Stats>
+      	<Stat type="Stealth" value="1" />
+      </Stats>
+    </Module>
+    <Module id="WeaponDrill" class="Strength" cost="1" >
+      <Perk id="RapidFire" />
+      <MaximumMode>
+        <Event type="UsageStat" stat="EIPS_RapidFireKills" value="50" />
+       </MaximumMode>
+      <Stats>
+      	<Stat type="Strength" value="1" />
+      </Stats>
+     </Module>
+    <Module id="StrengthModule" class="Strength" cost="3" >
+      <Perk id="NanoStrength" />
+      <MaximumMode>
+        <Event type="UsageStat" stat="EIPS_GrabbedEnemiesWithSuperStrenght" value="25" />
+        <Event type="UsageStat" stat="EIPS_PowerMeleeTakeDownKills" value="25" />
+      </MaximumMode>
+      <Stats>
+      	<Stat type="Strength" value="1" />
+      </Stats>
+    </Module>
+		<Module id="MedicalMonitor" class="Armor" cost="1" >
+			<Perk id="Regen" />
+      <MaximumMode>
+        <Event type="UsageStat" stat="EIPS_SurvivedNearDeathWithRegenActive" value="10" />
+        <Event type="UsageStat" stat="EFPS_HealthRestoredWithRegen" value="25000" />
+      </MaximumMode>
+      <Stats>
+      	<Stat type="Armor" value="1" />
+      </Stats>
+    </Module>    
+    <Module id="HeavyArmor" class="Armor" cost="3" >
+      <Perk id="HeavyArmor" />
+      <MaximumMode>
+        <Event type="UsageStat" stat="EIPS_HeavyArmor_DamageAbsorbed" value="150000" />
+      </MaximumMode>
+      <Stats>
+      	<Stat type="Armor" value="1" />
+      </Stats>
+    </Module>
+		<Module id="Verticality" class="Speed" cost="2" >
+      <Perk id="Mobility" />
+      <MaximumMode>
+        <Event type="UsageStat" stat="EIPS_PowerJumpsWithMobility" value="30" />
+        <Event type="UsageStat" stat="EIPS_LedgeGrabsWithMobility" value="30" />
+      </MaximumMode>
+      <Stats>
+      	<Stat type="Speed" value="1" />
+      </Stats>
+    </Module>    
+		<Module id="LightArmor" class="Armor" cost="1" >
+      <Perk id="ArmorEfficiency" />
+      <MaximumMode>
+        <Event type="UsageStat" stat="EIPS_ArmorEfficiency_DamageAbsorbed" value="100000" />
+      </MaximumMode>
+      <Stats>
+      	<Stat type="Armor" value="1" />
+      </Stats>
+		</Module>
+    <Module id="StealthKill" class="Stealth" cost="1" >
+      <Perk id="StealthKill" />
+      <MaximumMode>
+        <Event type="UsageStat" stat="EIPS_StealthKillsWithSPModuleEnabled" value="25" />
+      </MaximumMode>
+      <Stats>
+      	<Stat type="Stealth" value="1" />
+      </Stats>
+    </Module>
+	</Modules>
+
+  <Categories>
+    <Category name="Slot1" index="0">
+      <Module id="SuperStealth" />
+      <Module id="Endurance" />
+			<Module id="BruteForce" />
+			<Module id="SensorPackage" />
+		</Category>
+    <Category name="Slot2" index="1">
+      <Module id="BulletProof" />
+      <Module id="ReflexBoost" />
+			<Module id="EnergyUpgrade" />
+			<Module id="EODPackage" />
+		</Category>
+    <Category name="Slot3" index="2">
+      <Module id="ExtendedCloak" />
+      <Module id="WeaponDrill" />
+			<Module id="StrengthModule" />
+			<Module id="MedicalMonitor" />
+		</Category>
+    <Category name="Slot4" index="3">
+      <Module id="HeavyArmor" />
+      <Module id="Verticality" />
+			<Module id="LightArmor" />
+			<Module id="StealthKill" />
+		</Category>    
+
+</Categories>
+
+</PerkDistributionSP>
