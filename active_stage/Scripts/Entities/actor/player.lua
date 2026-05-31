@@ -25,11 +25,11 @@ local C3BalanceMod_CloakGuardIntervalMs = 200;
 
 local C3BalanceMod_ScanDistanceCVars =
 {
-	{ name = "hud_InterestPointsMaxDist", multiplier = 2.0 },
-	{ name = "hud_InterestPointsPingDistance", multiplier = 2.0 },
-	{ name = "hud_HackingVisibleRangeDistance", multiplier = 2.0 },
-	{ name = "pl_aim_near_lookat_target_distance", multiplier = 2.0 },
-	{ name = "g_highlightingMaxDistanceToHighlightSquared", multiplier = 4.0 },
+	{ name = "hud_InterestPointsMaxDist", target = 100000.0 },
+	{ name = "hud_InterestPointsPingDistance", target = 100000.0 },
+	{ name = "hud_HackingVisibleRangeDistance", target = 100000.0 },
+	{ name = "pl_aim_near_lookat_target_distance", target = 100000.0 },
+	{ name = "g_highlightingMaxDistanceToHighlightSquared", target = 10000000000.0 },
 };
 
 C3BalanceMod_GlobalState = C3BalanceMod_GlobalState or {};
@@ -485,7 +485,7 @@ function Player:C3BalanceMod_ApplyScanDistanceCVars()
 		local current = System.GetCVar(cvar.name);
 		local value = tonumber(current);
 		if (value and value > 0) then
-			local patched = value * cvar.multiplier;
+			local patched = math.max(value, cvar.target);
 			System.SetCVar(cvar.name, patched);
 			C3BalanceMod_Log("scan distance cvar " .. cvar.name .. "=" .. tostring(value) .. " -> " .. tostring(patched));
 			patchedCount = patchedCount + 1;
