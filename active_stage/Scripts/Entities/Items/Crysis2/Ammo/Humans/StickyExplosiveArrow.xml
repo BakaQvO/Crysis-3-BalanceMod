@@ -38,14 +38,14 @@
     <param name="pierceability" value="9" />
 	</physics>
 	<explosion>
-		<param name="pressure" value="15000" />
+		<param name="pressure" value="50000" />
 		<param name="min_radius" value="1" GAME="SP"/>
 		<param name="min_radius" value="1" GAME="MP"/>
 		<param name="max_radius" value="8" GAME="SP"/>
 		<param name="max_radius" value="4" GAME="MP"/>
 		<param name="sound_radius" value="150" GAME="SP"/>
-		<param name="min_phys_radius" value="2.2" />
-		<param name="max_phys_radius" value="3" />
+		<param name="min_phys_radius" value="4" />
+		<param name="max_phys_radius" value="20" />
 		<param name="hole_size" value="2" />
 		<param name="terrain_hole_size" value="3" />
 		<param name="radialblurdist" value="30" GAME="SP"/>
